@@ -2,6 +2,8 @@
 * Dev Lead: Richard Tuttle
 
 ## Environment Setup
+At least version 16.13.0 (LTS) of Node.
+
 ```bash
 # install dependencies
 $ yarn install
@@ -19,6 +21,7 @@ $ yarn run slicemachine
 | DEV        |                                   |
 | STAGE      |                                   |
 | PROD       | https://22squared.com             |
+| Prismic    | https://22sq.prismic.io/          |
 ## Development environment utilizes:
 
 - Vue
