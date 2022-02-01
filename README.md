@@ -1,14 +1,15 @@
 ## Project Title: 22squared agency static website
 * Dev Lead: Richard Tuttle
 
-## Environment Setup
+## Initial Environment Setup
 At least version 16.13.0 (LTS) of Node.
 
 ```bash
 # install dependencies
+$ yarn global add prismic-cli
 $ yarn install
 
-# if this is initial install, then run and connect to prismic repo
+# connect to prismic repo
 $ npx @slicemachine/init
 
 # launch Visual Builder
@@ -31,3 +32,4 @@ $ yarn run slicemachine
 - Storybook
 
 ## Documentation
+- [Wireframes](https://www.figma.com/proto/jZTTWbhyxblcXwZJr1vund/22squared-website-ux-2021?page-i%5B%E2%80%A6%5D264=&node-id=19%3A848&viewport=241%2C48%2C0.13&scaling=min-zoom)

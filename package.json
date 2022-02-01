@@ -1,41 +1,42 @@
 {
-  "name": "22squared-static-website",
-  "version": "1.0.0",
-  "private": true,
-  "repository": {
+	"name": "22squared-website-static",
+	"version": "1.0.0",
+	"description": "The 2022 brand marketing website rebuild",
+	"author": "22squared",
+	"main": "slices/index.js",
+	"scripts": {
+		"dev": "nuxt",
+		"nuxt:build": "nuxt build",
+		"build": "nuxt generate",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
+		"storybook": "nuxt storybook",
+		"build-storybook": "nuxt storybook build",
+		"slicemachine": "start-slicemachine --port 9999"
+	},
+	"dependencies": {
+		"@heroicons/vue": "^1.0.5",
+		"@nuxtjs/prismic": "^1.4.0",
+		"cookies": "^0.8.0",
+		"nuxt": "^2.15.8",
+		"nuxt-sm": "0.1.0",
+		"vue-essential-slices": "^0.3.0",
+		"vue-slicezone": "latest"
+	},
+	"devDependencies": {
+		"@nuxtjs/storybook": "^4.2.0",
+		"@nuxtjs/tailwindcss": "^4.2.1",
+		"@prismicio/slice-simulator-vue": "^0.2.0",
+		"core-js": "^3.20.3",
+		"nodemon": "^2.0.15",
+		"postcss": "^8.4.6",
+		"sass": "^1.49.4",
+		"sass-loader": "^12.4.0",
+		"slice-machine-ui": "^0.2.0"
+	},
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/22sq/22squared-website-static"
-	},
-	"author": "Richard Tuttle <richard.tuttle@22squared.com>",
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:prettier": "prettier --check .",
-    "lint": "yarn lint:prettier",
-    "lintfix": "prettier --write --list-different .",
-    "slicemachine": "start-slicemachine"
-  },
-  "dependencies": {
-    "@nuxtjs/prismic": "^1.4.0",
-    "@prismicio/slice-simulator-vue": "^0.2.0",
-    "core-js": "^3.20.3",
-    "nuxt": "^2.15.8",
-    "nuxt-sm": "^0.1.0",
-    "vue": "^2.6.14",
-    "vue-server-renderer": "^2.6.14",
-    "vue-slicezone": "^0.1.0",
-    "vue-template-compiler": "^2.6.14",
-    "webpack": "^5.67.0"
-  },
-  "devDependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/tailwindcss": "^4.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "postcss": "^8.4.5",
-    "prettier": "^2.5.1",
-    "slice-machine-ui": "^0.2.0"
-  }
+	}
 }

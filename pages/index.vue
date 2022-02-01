@@ -1,11 +1,19 @@
+<!--
+Looking for more information about the Slice Zone? Here's the documentation about it:
+https://www.slicemachine.dev/documentation/nuxt/add-the-slice-zone-to-your-page
+-->
 <template>
-  <div>TESTING</div>
+	<section>
+		<slice-zone type="home-page" queryType="single" />
+	</section>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
+<script>
+import SliceZone from "vue-slicezone";
+export default {
+	name: "Homepage",
+	components: {
+		SliceZone,
+	},
+};
 </script>

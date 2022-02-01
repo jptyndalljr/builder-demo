@@ -1,7 +1,7 @@
 {
-  "apiEndpoint": "https://22squared.prismic.io/api/v2",
-  "libraries": [
-    "@/slices"
-  ],
-  "_latest": "0.1.0"
+	"apiEndpoint": "https://22sq.prismic.io/api/v2",
+	"libraries": ["@/slices"],
+	"_latest": "0.1.0",
+	"storybook": "http://localhost:3003",
+	"localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }

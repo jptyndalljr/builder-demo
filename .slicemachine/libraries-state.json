@@ -1,5 +1,1266 @@
 {
   "slices": {
-    "components": {}
+    "components": {
+      "banner_slice": {
+        "library": "slices",
+        "id": "banner_slice",
+        "name": "BannerSlice",
+        "description": "BannerSlice",
+        "model": {
+          "id": "banner_slice",
+          "type": "SharedSlice",
+          "name": "BannerSlice",
+          "description": "BannerSlice",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BannerSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em"
+                  }
+                },
+                "link": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "select": "web",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "linkLabel": {
+                  "config": {
+                    "label": "",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "background": {
+                  "config": {
+                    "label": "",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "fullHeight",
+              "name": "Full Height",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BannerSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em"
+                  }
+                },
+                "link": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "select": "web",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "linkLabel": {
+                  "config": {
+                    "label": "",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "background": {
+                  "config": {
+                    "label": "",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "banner_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Engineer out-of-the-box communities",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Minim anim proident cillum laborum culpa ut nostrud ipsum. Nostrud ex qui cupidatat quis. In dolore ad in voluptate qui sint nisi.",
+                  "spans": []
+                }
+              ],
+              "link": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "linkLabel": "implement sexy e-commerce",
+              "background": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"
+              }
+            }
+          },
+          "fullHeight": {
+            "variation": "fullHeight",
+            "name": "Full Height",
+            "slice_type": "banner_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Brand integrated networks",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Exercitation ipsum ipsum proident culpa deserunt consectetur commodo aliquip cillum culpa consectetur ad sit do sit.",
+                  "spans": []
+                }
+              ],
+              "link": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "linkLabel": "extend open-source technologies",
+              "background": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/BannerSlice/default-slice/preview.png",
+            "width": 1168,
+            "height": 691
+          },
+          "fullHeight": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/BannerSlice/fullHeight/preview.png",
+            "width": 1168,
+            "height": 800
+          }
+        }
+      },
+      "case_studies": {
+        "library": "slices",
+        "id": "case_studies",
+        "name": "CaseStudies",
+        "description": "CaseStudies",
+        "model": {
+          "id": "case_studies",
+          "type": "SharedSlice",
+          "name": "CaseStudies",
+          "description": "CaseStudies",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CaseStudies",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": false,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                }
+              },
+              "items": {
+                "type": {
+                  "config": {
+                    "label": "Type",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "subType": {
+                  "config": {
+                    "label": "subType",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "headline": {
+                  "config": {
+                    "label": "Case Study Name",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "description": {
+                  "config": {
+                    "label": "content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,image,embed,list-item,o-list-item,hyperlink"
+                  },
+                  "type": "StructuredText"
+                },
+                "embedMedia": {
+                  "config": {
+                    "label": "Embeddable Media",
+                    "placeholder": ""
+                  },
+                  "type": "Embed"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "case_studies",
+            "items": [
+              {
+                "type": "grow synergistic paradigms",
+                "subType": "grow next-generation applications",
+                "headline": "extend vertical partnerships",
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Duis elit ad ea nisi eiusmod ullamco. Magna anim ad fugiat exercitation ea excepteur laborum elit proident ut ullamco sit. Nisi excepteur id voluptate ullamco nisi nostrud sint eu quis qui reprehenderit laborum.",
+                    "spans": []
+                  }
+                ],
+                "embedMedia": {
+                  "url": "https://twitter.com/prismicio/status/1356293316158095361",
+                  "author_name": "Prismic",
+                  "author_url": "https://twitter.com/prismicio",
+                  "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Gatsby is a popular choice for Prismic users and we work hard on delivering a CMS that plays to its strengths.<br><br>But, what makes <a href=\"https://twitter.com/GatsbyJS?ref_src=twsrc%5Etfw\">@GatsbyJS</a> so popular?<br><br>Here are some of <a href=\"https://twitter.com/mxstbr?ref_src=twsrc%5Etfw\">@mxstbr</a>&#39;s thoughts on Gatsby&#39;s success and how they&#39;re improving developer experience.<a href=\"https://t.co/ZjCPvsWWUD\">https://t.co/ZjCPvsWWUD</a> <a href=\"https://t.co/EQqzJpeNKl\">pic.twitter.com/EQqzJpeNKl</a></p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1356293316158095361?ref_src=twsrc%5Etfw\">February 1, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
+                  "width": 550,
+                  "height": null,
+                  "type": "rich",
+                  "cache_age": "3153600000",
+                  "provider_name": "Twitter",
+                  "provider_url": "http://www.twitter.com/",
+                  "version": "1.0"
+                }
+              },
+              {
+                "type": "embrace next-generation convergence",
+                "subType": "drive transparent architectures",
+                "headline": "exploit interactive e-markets",
+                "description": [
+                  {
+                    "type": "paragraph",
+                    "text": "Mollit dolore nisi cupidatat laborum reprehenderit ut cillum anim duis velit. Anim qui pariatur commodo in occaecat veniam laboris tempor quis ullamco. Ipsum culpa consequat ullamco deserunt eiusmod consectetur consectetur magna dolore sint minim.",
+                    "spans": []
+                  }
+                ],
+                "embedMedia": {
+                  "title": "Introducing Slice Machine",
+                  "author_name": "Prismic",
+                  "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
+                  "type": "video",
+                  "height": 113,
+                  "width": 200,
+                  "version": "1.0",
+                  "provider_name": "YouTube",
+                  "provider_url": "https://www.youtube.com/",
+                  "thumbnail_height": 360,
+                  "thumbnail_width": 480,
+                  "thumbnail_url": "https://i.ytimg.com/vi/iewZXv94XGY/hqdefault.jpg",
+                  "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/iewZXv94XGY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Strategize customized bandwidth",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Magna consectetur labore quis do tempor qui nostrud. Est sunt sit enim cupidatat sit id proident veniam.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/CaseStudies/default-slice/preview.png",
+            "width": 1168,
+            "height": 1169
+          }
+        }
+      },
+      "featured_image": {
+        "library": "slices",
+        "id": "featured_image",
+        "name": "FeaturedImage",
+        "description": "FeaturedImage",
+        "model": {
+          "id": "featured_image",
+          "type": "SharedSlice",
+          "name": "FeaturedImage",
+          "description": "FeaturedImage",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "FeaturedImage",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "headline": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading3"
+                  },
+                  "type": "StructuredText"
+                },
+                "link": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "select": "web",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "linkLabel": {
+                  "config": {
+                    "label": "",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "featuredImage": {
+                  "config": {
+                    "label": "",
+                    "constraint": {
+                      "width": 727,
+                      "height": 402
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "featured_image",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Brand extensible convergence",
+                  "spans": []
+                }
+              ],
+              "headline": [
+                {
+                  "type": "heading3",
+                  "text": "Recontextualize frictionless blockchains",
+                  "spans": []
+                }
+              ],
+              "link": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "linkLabel": "transition visionary methodologies",
+              "featuredImage": {
+                "dimensions": {
+                  "width": 727,
+                  "height": 402
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=727&h=402&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/FeaturedImage/default-slice/preview.png",
+            "width": 1168,
+            "height": 496
+          }
+        }
+      },
+      "full_width_image": {
+        "library": "slices",
+        "id": "full_width_image",
+        "name": "FullWidthImage",
+        "description": "FullWidthImage",
+        "model": {
+          "id": "full_width_image",
+          "type": "SharedSlice",
+          "name": "FullWidthImage",
+          "description": "FullWidthImage",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "FullWidthImage",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "",
+                    "constraint": {
+                      "width": 980,
+                      "height": 300
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "full_width_image",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 980,
+                  "height": 300
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=980&h=300&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/FullWidthImage/default-slice/preview.png",
+            "width": 1168,
+            "height": 300
+          }
+        }
+      },
+      "image_gallery": {
+        "library": "slices",
+        "id": "image_gallery",
+        "name": "ImageGallery",
+        "description": "ImageGallery",
+        "model": {
+          "id": "image_gallery",
+          "type": "SharedSlice",
+          "name": "ImageGallery",
+          "description": "ImageGallery",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ImageGallery",
+              "primary": {
+                "galleryTitle": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  },
+                  "type": "StructuredText"
+                },
+                "galleryDescription": {
+                  "config": {
+                    "label": "Gallery Description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {
+                "image": {
+                  "config": {
+                    "label": "",
+                    "constraint": {
+                      "width": 727,
+                      "height": 402
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "imageDescription": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "link": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "select": "web",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "linkLabel": {
+                  "config": {
+                    "label": "",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "image_gallery",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 727,
+                    "height": 402
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=727&h=402&fit=crop"
+                },
+                "imageDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Id ipsum non in minim do laborum enim culpa fugiat laboris do aliquip. Veniam ullamco sint nulla proident sint cillum minim. Elit excepteur dolor irure adipisicing adipisicing exercitation dolore.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                },
+                "linkLabel": "architect real-time interfaces"
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 727,
+                    "height": 402
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=727&h=402&fit=crop"
+                },
+                "imageDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Qui laborum exercitation voluptate reprehenderit ullamco reprehenderit enim. Sunt eiusmod eu esse amet ipsum ut id irure culpa veniam enim ipsum eiusmod.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                },
+                "linkLabel": "syndicate transparent applications"
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 727,
+                    "height": 402
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=727&h=402&fit=crop"
+                },
+                "imageDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Laboris elit ullamco aliquip reprehenderit laboris sint dolor aliqua deserunt id adipisicing tempor est magna reprehenderit. Qui officia labore enim incididunt cillum occaecat aliquip incididunt. Nulla cupidatat cupidatat reprehenderit incididunt officia eu et.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "linkLabel": "optimize efficient blockchains"
+              }
+            ],
+            "primary": {
+              "galleryTitle": [
+                {
+                  "type": "heading2",
+                  "text": "Iterate e-business interfaces",
+                  "spans": []
+                }
+              ],
+              "galleryDescription": [
+                {
+                  "type": "paragraph",
+                  "text": "Tempor quis non reprehenderit occaecat sit sit enim proident fugiat ipsum excepteur consectetur.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageGallery/default-slice/preview.png",
+            "width": 1168,
+            "height": 1428
+          }
+        }
+      },
+      "presentation": {
+        "library": "slices",
+        "id": "presentation",
+        "name": "Presentation",
+        "description": "Presentation",
+        "model": {
+          "id": "presentation",
+          "type": "SharedSlice",
+          "name": "Presentation",
+          "description": "Presentation",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Presentation",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                }
+              },
+              "items": {
+                "linkTitle": {
+                  "config": {
+                    "label": "Link Title",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "single": "heading3"
+                  },
+                  "type": "StructuredText"
+                },
+                "linkDescription": {
+                  "config": {
+                    "label": "Link Description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                },
+                "link": {
+                  "config": {
+                    "label": "Link URL",
+                    "placeholder": "",
+                    "select": "web",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "presentation",
+            "items": [
+              {
+                "linkTitle": [
+                  {
+                    "type": "heading3",
+                    "text": "Drive killer platforms",
+                    "spans": []
+                  }
+                ],
+                "linkDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Id ex do cillum laborum et nisi sint.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "linkTitle": [
+                  {
+                    "type": "heading3",
+                    "text": "Unleash end-to-end deliverables",
+                    "spans": []
+                  }
+                ],
+                "linkDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Consectetur pariatur pariatur quis est aute laborum ut irure sint. Quis incididunt duis non nulla Lorem do laborum officia officia eu in consequat. Exercitation occaecat ea minim duis mollit nisi ea anim voluptate ex.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "linkTitle": [
+                  {
+                    "type": "heading3",
+                    "text": "Enhance distributed action-items",
+                    "spans": []
+                  }
+                ],
+                "linkDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Tempor incididunt ad occaecat reprehenderit proident do do aute ipsum eiusmod. Ea est cupidatat adipisicing veniam non fugiat.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "linkTitle": [
+                  {
+                    "type": "heading3",
+                    "text": "Repurpose value-added web services",
+                    "spans": []
+                  }
+                ],
+                "linkDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Occaecat sint consectetur labore eiusmod.",
+                    "spans": []
+                  }
+                ],
+                "link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Strategize vertical niches",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Ex excepteur anim enim velit officia reprehenderit adipisicing ullamco labore officia labore. Occaecat do mollit sit duis aliqua Lorem in enim. Pariatur quis occaecat veniam do amet esse Lorem Lorem.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Presentation/default-slice/preview.png",
+            "width": 1168,
+            "height": 940
+          }
+        }
+      },
+      "quote_slice": {
+        "library": "slices",
+        "id": "quote_slice",
+        "name": "QuoteSlice",
+        "description": "QuoteSlice",
+        "model": {
+          "id": "quote_slice",
+          "type": "SharedSlice",
+          "name": "QuoteSlice",
+          "description": "QuoteSlice",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "QuoteSlice",
+              "primary": {
+                "quotetext": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "quoteReference",
+              "name": "Quote Reference",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "QuoteSlice",
+              "primary": {
+                "quotetext": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  },
+                  "type": "StructuredText"
+                },
+                "reference": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em,hyperlink"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "quote_slice",
+            "items": [],
+            "primary": {
+              "quotetext": [
+                {
+                  "type": "paragraph",
+                  "text": "Ad consectetur minim sunt commodo laboris culpa. Do minim fugiat consequat commodo sunt culpa qui aliqua.",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "quoteReference": {
+            "variation": "quoteReference",
+            "name": "Quote Reference",
+            "slice_type": "quote_slice",
+            "items": [],
+            "primary": {
+              "quotetext": [
+                {
+                  "type": "paragraph",
+                  "text": "Exercitation irure mollit id labore. Aliquip velit consectetur culpa eu ullamco et consectetur dolor qui enim sit quis.",
+                  "spans": []
+                }
+              ],
+              "reference": [
+                {
+                  "type": "paragraph",
+                  "text": "Id magna eiusmod mollit mollit incididunt magna incididunt. Et ad id eiusmod proident exercitation consectetur. Mollit consequat ut Lorem tempor dolore enim laborum nostrud elit ea est laboris.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/default-slice/preview.png",
+            "width": 1168,
+            "height": 108
+          },
+          "quoteReference": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/quoteReference/preview.png",
+            "width": 1168,
+            "height": 108
+          }
+        }
+      },
+      "team_gallery": {
+        "library": "slices",
+        "id": "team_gallery",
+        "name": "TeamGallery",
+        "description": "TeamGallery",
+        "model": {
+          "id": "team_gallery",
+          "type": "SharedSlice",
+          "name": "TeamGallery",
+          "description": "TeamGallery",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TeamGallery",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+                  }
+                }
+              },
+              "items": {
+                "image": {
+                  "config": {
+                    "label": "",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "name": {
+                  "config": {
+                    "label": "",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "position": {
+                  "config": {
+                    "label": "",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "team_gallery",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+                },
+                "name": "redefine compelling systems",
+                "position": "enable granular e-services"
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+                },
+                "name": "utilize world-class mindshare",
+                "position": "redefine dynamic e-services"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Incentivize 24/7 applications",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TeamGallery/default-slice/preview.png",
+            "width": 1168,
+            "height": 389
+          }
+        }
+      },
+      "text_slice": {
+        "library": "slices",
+        "id": "text_slice",
+        "name": "TextSlice",
+        "description": "TextSlice",
+        "model": {
+          "id": "text_slice",
+          "type": "SharedSlice",
+          "name": "TextSlice",
+          "description": "TextSlice",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextSlice",
+              "primary": {
+                "text": {
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "twoColumn",
+              "name": "Two Column",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextSlice",
+              "primary": {
+                "text": {
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "text_slice",
+            "items": [],
+            "primary": {
+              "text": [
+                {
+                  "type": "paragraph",
+                  "text": "Ipsum dolor sit ipsum velit irure dolore occaecat deserunt. Et occaecat nostrud sit dolore nisi Lorem laborum in eiusmod ex cillum cillum adipisicing reprehenderit.",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "twoColumn": {
+            "variation": "twoColumn",
+            "name": "Two Column",
+            "slice_type": "text_slice",
+            "items": [],
+            "primary": {
+              "text": [
+                {
+                  "type": "paragraph",
+                  "text": "Sint et consequat dolor in non.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextSlice/default-slice/preview.png",
+            "width": 1168,
+            "height": 88
+          },
+          "twoColumn": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextSlice/twoColumn/preview.png",
+            "width": 1168,
+            "height": 30
+          }
+        }
+      }
+    }
   }
 }

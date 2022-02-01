@@ -1,0 +1,21 @@
+{
+  "slices": {
+    "VimeoGallery": {},
+    "ImageGallery": {
+      "default-slice": {
+        "primary": {
+          "galleryDescription": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "_cts": {
+    "home-page": {},
+    "page": {}
+  }
+}
