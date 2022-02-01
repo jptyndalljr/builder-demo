@@ -26,13 +26,14 @@
 	},
 	"devDependencies": {
 		"@nuxtjs/storybook": "^4.2.0",
+		"@nuxtjs/style-resources": "^1.2.1",
 		"@nuxtjs/tailwindcss": "^4.2.1",
 		"@prismicio/slice-simulator-vue": "^0.2.0",
 		"core-js": "^3.20.3",
 		"nodemon": "^2.0.15",
 		"postcss": "^8.4.6",
 		"sass": "^1.49.4",
-		"sass-loader": "^12.4.0",
+		"sass-loader": "^10.2.1",
 		"slice-machine-ui": "^0.2.0"
 	},
 	"repository": {

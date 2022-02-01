@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_slice","items":[],"primary":{"text":[{"type":"paragraph","text":"Ipsum dolor sit ipsum velit irure dolore occaecat deserunt. Et occaecat nostrud sit dolore nisi Lorem laborum in eiusmod ex cillum cillum adipisicing reprehenderit.","spans":[]}]},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_slice","items":[],"primary":{"text":[{"type":"paragraph","text":"Ex ea et quis in et nostrud irure ad. Excepteur tempor tempor eiusmod minim dolore laboris amet.","spans":[]}]},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
@@ -37,7 +37,7 @@ export const _TwoColumn = () => ({
   },
   data() {
     return {
-      mock: {"variation":"twoColumn","name":"Two Column","slice_type":"text_slice","items":[],"primary":{"text":[{"type":"paragraph","text":"Sint et consequat dolor in non.","spans":[]}]},"id":"_TwoColumn"}
+      mock: {"variation":"twoColumn","name":"Two Column","slice_type":"text_slice","items":[],"primary":{"text":[{"type":"paragraph","text":"Lorem non aliqua eiusmod pariatur proident culpa ea duis elit id nisi excepteur adipisicing.","spans":[]}]},"id":"_TwoColumn"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'

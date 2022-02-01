@@ -12,6 +12,11 @@
           }
         }
       }
+    },
+    "TextSlice": {
+      "twoColumn": {
+        "items": {}
+      }
     }
   },
   "_cts": {

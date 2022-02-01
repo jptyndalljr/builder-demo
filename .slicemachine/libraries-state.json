@@ -1221,7 +1221,7 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Ipsum dolor sit ipsum velit irure dolore occaecat deserunt. Et occaecat nostrud sit dolore nisi Lorem laborum in eiusmod ex cillum cillum adipisicing reprehenderit.",
+                  "text": "Ex ea et quis in et nostrud irure ad. Excepteur tempor tempor eiusmod minim dolore laboris amet.",
                   "spans": []
                 }
               ]
@@ -1236,7 +1236,7 @@
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Sint et consequat dolor in non.",
+                  "text": "Lorem non aliqua eiusmod pariatur proident culpa ea duis elit id nisi excepteur adipisicing.",
                   "spans": []
                 }
               ]
@@ -1251,13 +1251,13 @@
         "screenshotPaths": {
           "default-slice": {
             "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextSlice/default-slice/preview.png",
-            "width": 1168,
-            "height": 88
+            "width": 800,
+            "height": 28
           },
           "twoColumn": {
             "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextSlice/twoColumn/preview.png",
-            "width": 1168,
-            "height": 30
+            "width": 800,
+            "height": 56
           }
         }
       }

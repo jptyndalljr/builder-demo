@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "ada";
+
+* { -webkit-font-smoothing: antialiased; }
+*, *::before, *::after { box-sizing: content-box; }
+::-moz-selection { background: #fff; }
+::selection { background: #fff; }
+::-moz-selection {	background: #fff; }
+
+/*
+ * Globals
+ */
+
+ @layer base {
+    h1 { @apply text-6xl; }
+    h2 { @apply text-5xl; }
+    h3 { @apply text-4xl; }
+    h4 { @apply text-3xl; }
+    h5 { @apply text-2xl; }
+    h6 { @apply text-xl; }
+}
+
+body {
+	background: rgb(20, 42, 72);
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	line-height: 28px;
+}
+
+a {
+	color: #ee6056;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+	line-height: 28px;
+	text-decoration: none;
+}
+
+p a {
+	text-decoration: underline;
+}

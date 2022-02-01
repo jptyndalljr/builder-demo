@@ -12,7 +12,9 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				'22-orange': '#ee6056',
+				'22-tang': '#ff6b38',
+				'22-sunrise': '#f89c25',
+				'22-midnight': '#283847',
 			},
 		},
 	},
