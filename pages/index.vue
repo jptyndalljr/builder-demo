@@ -4,7 +4,7 @@ https://www.slicemachine.dev/documentation/nuxt/add-the-slice-zone-to-your-page
 -->
 <template>
 	<section>
-		<slice-zone type="home-page" queryType="single" />
+		<slice-zone type="text-with-image" uid="title-text-can-go-here" />
 	</section>
 </template>
 

@@ -72,6 +72,6 @@ export default {
     transpile: ['vue-slicezone', 'nuxt-sm']
   },
   storybook: {
-    stories: [...getStoriesPaths().map(path => path.replace("../", "~/")), "../assets/main.scss"]
+    stories: [...getStoriesPaths().map(path => path.replace("../", "~/"))]
   }
 };
