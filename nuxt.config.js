@@ -1,4 +1,3 @@
-import { getStoriesPaths } from 'slice-machine-ui/helpers/storybook';
 import smConfig from './sm.json';
 
 if (!smConfig.apiEndpoint) {
@@ -71,7 +70,4 @@ export default {
   build: {
     transpile: ['vue-slicezone', 'nuxt-sm']
   },
-  storybook: {
-    stories: [...getStoriesPaths().map(path => path.replace("../", "~/"))]
-  }
 };
