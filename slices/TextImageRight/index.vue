@@ -52,6 +52,7 @@ export default {
 
 .center {
 	height: 150px;
+	align-self: center;
 }
 
 img {
@@ -63,10 +64,12 @@ img {
 .text {
 	padding: 2% 5%;
 	width: 80%;
+	color: #000;
 }
 
 .title {
 	text-align: center;
 	margin-bottom: 2em;
+	color: #000;
 }
 </style>
