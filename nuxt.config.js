@@ -1,5 +1,5 @@
 import { getStoriesPaths } from 'slice-machine-ui/helpers/storybook';
-import smConfig from './sm.json'; // import { getStoriesPaths } from 'slice-machine-ui/helpers/storybook';
+import smConfig from './sm.json';
 
 if (!smConfig.apiEndpoint) {
   console.warn("Looks like Slice Machine hasn't been bootstraped already.");
@@ -72,6 +72,6 @@ export default {
     transpile: ['vue-slicezone', 'nuxt-sm']
   },
   storybook: {
-    stories: [...getStoriesPaths().map(path => path.replace("../", "~/"))]
+    stories: [...getStoriesPaths().map(path => path.replace("../", "~/")), "../assets/main.scss"]
   }
 };
