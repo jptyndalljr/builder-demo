@@ -1,8 +1,9 @@
 ## Project Title: 22squared agency static website
 * Dev Lead: Richard Tuttle
+- Client: 22Squared
 
 ## Initial Environment Setup
-At least version 16.13.0 (LTS) of Node.
+At least LTS version of Node. (currently 16.13.x)
 
 ```bash
 # install dependencies
@@ -11,8 +12,10 @@ $ yarn install
 
 # connect to prismic repo
 $ npx @slicemachine/init
-
-# launch Visual Builder
+```
+# launch Visual Builder and Localhost environments in seperate terminal windows
+```bash
+$ yarn run dev
 $ yarn run slicemachine
 ```
 ## Enviroments
@@ -27,7 +30,9 @@ $ yarn run slicemachine
 
 - Vue
 - Nuxt
-- TailWind CSS
+- Node
+- Sass
+- TailWind
 - Prismic
 - Storybook
 

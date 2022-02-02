@@ -1,0 +1,89 @@
+{
+  "id": "text_image_right",
+  "type": "SharedSlice",
+  "name": "TextImageRight",
+  "description": "TextImageRight",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TextImageRight",
+      "primary": {
+        "textField": {
+          "config": {
+            "label": "",
+            "placeholder": "This is Some Text",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,strong"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "textImageLeft",
+      "name": "TextImageLeft",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TextImageRight",
+      "primary": {
+        "textField": {
+          "config": {
+            "label": "",
+            "placeholder": "This is Some Text",
+            "allowTargetBlank": false,
+            "single": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "titleImage",
+      "name": "TitleImage",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TextImageRight",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "title": {
+          "config": {
+            "label": "",
+            "placeholder": "This is Some Text",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
