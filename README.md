@@ -13,7 +13,7 @@ $ yarn install
 # connect to prismic repo
 $ npx @slicemachine/init
 ```
-# launch Visual Builder and Localhost environments in seperate terminal windows
+### launch Visual Builder and Localhost environments in seperate terminal windows
 ```bash
 $ yarn run dev
 $ yarn run slicemachine
