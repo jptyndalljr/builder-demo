@@ -18,7 +18,7 @@ export default {
       charset: 'utf-8'
     }, {
       name: 'viewport',
-      content: 'width=device-width, initial-scale=1'
+      content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
     }, {
       hid: 'description',
       name: 'description',
@@ -53,7 +53,7 @@ export default {
   },
   plugins: [],
   components: true,
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
   modules: ["@nuxtjs/style-resources", ['@nuxtjs/prismic', {
     endpoint: smConfig.apiEndpoint || '',
     apiOptions: {
@@ -62,7 +62,7 @@ export default {
         path: '/:uid'
       }]
     }
-  }], ['nuxt-sm']],
+  }], ['nuxt-sm'], '@nuxtjs/gtm'],
   generate: {
     // fallback: '404.html', // Netlify reads a 404.html, Nuxt will load as an SPA
     fallback: true
@@ -70,4 +70,14 @@ export default {
   build: {
     transpile: ['vue-slicezone', 'nuxt-sm']
   },
+  sitemap: {
+	  hostname: "https://22squared.com/",
+	  gzip: true,
+	  exclude: [],
+	  trailingSlash: true,
+  },
+  gtm: {
+	  id: "",
+	  pageTracking: true,
+  }
 };
