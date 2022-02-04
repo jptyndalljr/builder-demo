@@ -23,6 +23,7 @@
 }
 
 body {
+	font-family: $ff-sans;
 	background: $page-bkg;
 	color: $base-font-color;
 	font-size: $base-font-size;
@@ -31,8 +32,13 @@ body {
 	line-height: 28px;
 }
 
-a {
+h1, h2, h3, h4, h5, h6 {
+	font-family: $ff-serif;
 	color: $tang;
+}
+
+a {
+	color: $sunrise;
 	font-weight: $base-font-weight;
 	letter-spacing: 0.35px;
 	line-height: 28px;

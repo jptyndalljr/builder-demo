@@ -47,21 +47,17 @@ export default {
       href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
     }]
   },
-  css: ['@/assets/scss/main.scss'],
+  css: ['vue-essential-slices/src/styles/styles.scss', '@/assets/scss/main.scss'],
   styleResources: {
     scss: ["@/assets/scss/_variables.scss"]
   },
-  plugins: [],
+  plugins: [{ src: "@/plugins/prismicLink", ssr: false }],
   components: true,
   buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
   modules: ["@nuxtjs/style-resources", ['@nuxtjs/prismic', {
     endpoint: smConfig.apiEndpoint || '',
-    // apiOptions: {
-    //   routes: [{
-    //     type: 'page',
-    //     path: '/:uid'
-    //   }]
-    // }
+    linkResolver: '@/plugins/link-resolver',
+	htmlSerializer: '@/plugins/html-serializer',
   }], ['nuxt-sm'], '@nuxtjs/gtm'],
   generate: {
     // fallback: '404.html', // Netlify reads a 404.html, Nuxt will load as an SPA
@@ -79,5 +75,5 @@ export default {
   gtm: {
 	  id: "",
 	  pageTracking: true,
-  }
+  },
 };
