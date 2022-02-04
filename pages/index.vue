@@ -7,7 +7,6 @@
 <script>
 import SliceZone from "vue-slicezone";
 export default {
-	name: "TextImageRight",
 	components: {
 		SliceZone,
 	},

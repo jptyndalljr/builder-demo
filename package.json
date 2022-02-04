@@ -18,6 +18,7 @@
     "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/prismic": "^1.4.0",
     "@nuxtjs/sitemap": "^2.4.0",
+    "@prismicio/vue": "^2.1.0",
     "cookies": "^0.8.0",
     "nuxt": "^2.15.8",
     "nuxt-sm": "^0.1.0",
