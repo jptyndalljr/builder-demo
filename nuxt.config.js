@@ -56,12 +56,12 @@ export default {
   buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
   modules: ["@nuxtjs/style-resources", ['@nuxtjs/prismic', {
     endpoint: smConfig.apiEndpoint || '',
-    apiOptions: {
-      routes: [{
-        type: 'page',
-        path: '/:uid'
-      }]
-    }
+    // apiOptions: {
+    //   routes: [{
+    //     type: 'page',
+    //     path: '/:uid'
+    //   }]
+    // }
   }], ['nuxt-sm'], '@nuxtjs/gtm'],
   generate: {
     // fallback: '404.html', // Netlify reads a 404.html, Nuxt will load as an SPA
