@@ -53,7 +53,7 @@ export default {
   },
   plugins: [{ src: "@/plugins/prismicLink", ssr: false }],
   components: true,
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
+  buildModules: ['@nuxt/postcss8', '@nuxtjs/sitemap'],
   modules: ["@nuxtjs/style-resources", ['@nuxtjs/prismic', {
     endpoint: smConfig.apiEndpoint || '',
     linkResolver: '@/plugins/link-resolver',
@@ -64,7 +64,13 @@ export default {
     fallback: true
   },
   build: {
-    transpile: ['vue-slicezone', 'nuxt-sm']
+    transpile: ['vue-slicezone', 'nuxt-sm'],
+	postcss: {
+		plugins: {
+			tailwindcss: {},
+			autoprefixer: {},
+		},
+	},
   },
   sitemap: {
 	  hostname: "https://22squared.com/",
