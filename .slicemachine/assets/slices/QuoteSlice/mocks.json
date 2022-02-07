@@ -5,10 +5,10 @@
     "slice_type": "quote_slice",
     "items": [],
     "primary": {
-      "quotetext": [
+      "quoteText": [
         {
           "type": "paragraph",
-          "text": "Ad consectetur minim sunt commodo laboris culpa. Do minim fugiat consequat commodo sunt culpa qui aliqua.",
+          "text": "Adipisicing minim quis ad occaecat aliqua sit culpa. Velit nulla magna et dolore dolore sunt ipsum nostrud ullamco consequat.",
           "spans": []
         }
       ]
@@ -20,17 +20,17 @@
     "slice_type": "quote_slice",
     "items": [],
     "primary": {
-      "quotetext": [
+      "quoteText": [
         {
           "type": "paragraph",
-          "text": "Exercitation irure mollit id labore. Aliquip velit consectetur culpa eu ullamco et consectetur dolor qui enim sit quis.",
+          "text": "Est cupidatat reprehenderit Lorem laborum sint in nulla ut mollit elit do nisi fugiat nostrud veniam. Elit do excepteur dolor id aliqua deserunt aliquip fugiat quis.",
           "spans": []
         }
       ],
-      "reference": [
+      "Reference": [
         {
           "type": "paragraph",
-          "text": "Id magna eiusmod mollit mollit incididunt magna incididunt. Et ad id eiusmod proident exercitation consectetur. Mollit consequat ut Lorem tempor dolore enim laborum nostrud elit ea est laboris.",
+          "text": "Mollit qui proident aliquip occaecat. Incididunt culpa amet veniam non nostrud amet eu est ipsum consectetur amet qui occaecat excepteur. Voluptate consequat officia in occaecat quis excepteur veniam enim irure sunt.",
           "spans": []
         }
       ]

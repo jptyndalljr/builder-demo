@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"quote_slice","items":[],"primary":{"quotetext":[{"type":"paragraph","text":"Ad consectetur minim sunt commodo laboris culpa. Do minim fugiat consequat commodo sunt culpa qui aliqua.","spans":[]}]},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"quote_slice","items":[],"primary":{"quoteText":[{"type":"paragraph","text":"Adipisicing minim quis ad occaecat aliqua sit culpa. Velit nulla magna et dolore dolore sunt ipsum nostrud ullamco consequat.","spans":[]}]},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
@@ -37,7 +37,7 @@ export const _QuoteReference = () => ({
   },
   data() {
     return {
-      mock: {"variation":"quoteReference","name":"Quote Reference","slice_type":"quote_slice","items":[],"primary":{"quotetext":[{"type":"paragraph","text":"Exercitation irure mollit id labore. Aliquip velit consectetur culpa eu ullamco et consectetur dolor qui enim sit quis.","spans":[]}],"reference":[{"type":"paragraph","text":"Id magna eiusmod mollit mollit incididunt magna incididunt. Et ad id eiusmod proident exercitation consectetur. Mollit consequat ut Lorem tempor dolore enim laborum nostrud elit ea est laboris.","spans":[]}]},"id":"_QuoteReference"}
+      mock: {"variation":"quoteReference","name":"Quote Reference","slice_type":"quote_slice","items":[],"primary":{"quoteText":[{"type":"paragraph","text":"Est cupidatat reprehenderit Lorem laborum sint in nulla ut mollit elit do nisi fugiat nostrud veniam. Elit do excepteur dolor id aliqua deserunt aliquip fugiat quis.","spans":[]}],"Reference":[{"type":"paragraph","text":"Mollit qui proident aliquip occaecat. Incididunt culpa amet veniam non nostrud amet eu est ipsum consectetur amet qui occaecat excepteur. Voluptate consequat officia in occaecat quis excepteur veniam enim irure sunt.","spans":[]}]},"id":"_QuoteReference"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
