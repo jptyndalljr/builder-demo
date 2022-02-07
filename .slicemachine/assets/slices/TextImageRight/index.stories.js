@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_image_right","items":[],"primary":{"textField":[{"type":"paragraph","text":"Sint tempor est aute.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"}},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"text_image_right","items":[],"primary":{"textField":[{"type":"paragraph","text":"Incididunt minim cillum occaecat ad esse amet. Ut officia tempor sit pariatur elit enim nisi pariatur consectetur velit consectetur laborum consectetur. Ad nulla aliquip consectetur consectetur occaecat pariatur adipisicing elit qui.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"}},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
@@ -37,7 +37,7 @@ export const _TextImageLeft = () => ({
   },
   data() {
     return {
-      mock: {"variation":"textImageLeft","name":"TextImageLeft","slice_type":"text_image_right","items":[],"primary":{"textField":[{"type":"paragraph","text":"Irure consequat aliquip Lorem occaecat officia irure qui velit nulla eu non eiusmod amet.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=900&h=500&fit=crop"}},"id":"_TextImageLeft"}
+      mock: {"variation":"textImageLeft","name":"TextImageLeft","slice_type":"text_image_right","items":[],"primary":{"textField":[{"type":"paragraph","text":"Est aliqua aute dolor quis. Nulla eiusmod cupidatat deserunt id proident ad ullamco et excepteur adipisicing minim.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1560762484-813fc97650a0?w=900&h=500&fit=crop"}},"id":"_TextImageLeft"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
@@ -56,7 +56,7 @@ export const _TitleImage = () => ({
   },
   data() {
     return {
-      mock: {"variation":"titleImage","name":"TitleImage","slice_type":"text_image_right","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"},"title":[{"type":"heading2","text":"Morph web-enabled bandwidth","spans":[]}]},"id":"_TitleImage"}
+      mock: {"variation":"titleImage","name":"TitleImage","slice_type":"text_image_right","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&h=500&fit=crop"},"title":[{"type":"heading2","text":"Optimize user-centric relationships","spans":[]}]},"id":"_TitleImage"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'

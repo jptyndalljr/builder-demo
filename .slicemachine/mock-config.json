@@ -28,7 +28,7 @@
           "textField": [
             {
               "type": "paragraph",
-              "text": "Anim et ullamco officia nostrud labore incididunt veniam labore.",
+              "text": "Dolore laboris commodo voluptate cillum laborum duis officia duis adipisicing commodo consequat ad tempor.",
               "spans": []
             }
           ],
@@ -39,7 +39,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
           }
         }
       },
@@ -52,7 +52,7 @@
           "textField": [
             {
               "type": "paragraph",
-              "text": "Reprehenderit ad enim mollit esse Lorem commodo cupidatat velit labore. Qui anim pariatur occaecat enim.",
+              "text": "Adipisicing et elit ipsum labore commodo commodo laborum eu amet dolor veniam qui ad. Eiusmod ullamco dolor dolor incididunt consectetur eu consectetur pariatur labore consequat voluptate id. Ea aliquip nulla magna pariatur esse adipisicing voluptate dolore nostrud irure consectetur.",
               "spans": []
             }
           ],
@@ -63,7 +63,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=900&h=500&fit=crop"
           }
         }
       },
@@ -80,55 +80,101 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1433888104365-77d8043c9615?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
           },
           "title": [
             {
               "type": "heading2",
-              "text": "Transition granular e-tailers",
+              "text": "Monetize cutting-edge deliverables",
               "spans": []
             }
           ]
         }
       }
     ],
-    "BannerSlice": {
-      "default-slice": {
+    "BannerSlice": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "banner_slice",
+        "items": [],
         "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Exploit frictionless deliverables",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Qui consectetur minim commodo magna Lorem sit in est sint. Cillum anim culpa occaecat eiusmod laborum consectetur.",
+              "spans": []
+            }
+          ],
+          "link": {
+            "link_type": "Web",
+            "url": "https://prismic.io"
+          },
+          "linkLabel": "Click Me!",
           "background": {
-            "content": "https://images.unsplash.com/photo-1435575653489-b0873ec954e2"
-          },
-          "linkLabel": {
-            "content": "Click Me!"
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1435575653489-b0873ec954e2?w=900&h=500&fit=crop"
           }
         }
       }
-    },
-    "QuoteSlice": {
-      "default-slice": {
-        "primary": {}
-      },
-      "quoteReference": {
+    ],
+    "QuoteSlice": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "quote_slice",
+        "items": [],
         "primary": {
-          "Reference": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
+          "quoteText": [
+            {
+              "type": "paragraph",
+              "text": "Non proident incididunt duis do nulla minim anim ullamco cupidatat exercitation nostrud laboris commodo labore sunt. Voluptate velit fugiat officia sit non ut sunt Lorem aliqua ut nulla magna culpa amet. Dolore fugiat excepteur occaecat enim occaecat sit adipisicing cupidatat quis duis.",
+              "spans": []
             }
-          },
-          "quoteText": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
+          ]
+        }
+      },
+      {
+        "variation": "quoteReference",
+        "name": "Quote Reference",
+        "slice_type": "quote_slice",
+        "items": [],
+        "primary": {
+          "quoteText": [
+            {
+              "type": "paragraph",
+              "text": "Fugiat excepteur aute consequat elit aute et velit Lorem quis adipisicing magna eu sint culpa velit.",
+              "spans": []
             }
-          }
+          ],
+          "Reference": [
+            {
+              "type": "paragraph",
+              "text": "Quis exercitation veniam cupidatat consectetur aliquip enim id incididunt. Eu Lorem cillum eu adipisicing ad dolore cillum id excepteur adipisicing et et laborum ullamco. Fugiat labore nulla veniam culpa est deserunt officia dolor in ex quis.",
+              "spans": []
+            }
+          ]
         }
       }
-    }
+    ]
   },
   "_cts": {
     "home-page": {},
     "page": {},
-    "textWithImage": {}
+    "textWithImage": {},
+    "page-type": {},
+    "homepage": {}
   }
 }
