@@ -14,7 +14,7 @@ export const mutations = {
 export const actions = {
 	async fetchMenu({ commit }, $prismic) {
 		try {
-			const menu = (await $prismic.api.getSingle('menu')).data
+			const menu = (await $prismic.api.getSingle('Menu')).data
 
 			commit('SET_MENU', menu)
 		} catch (e) {

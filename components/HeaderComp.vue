@@ -1,14 +1,14 @@
 <template>
 	<header class="site-header">
-		<p v-if="$store.state.menu === 'Please create a menu document'" class="logo">{{ $store.state.menu }}</p>
-		<nuxt-link class="logo" to="/">{{ $prismic.asText($store.state.menu.title) }}</nuxt-link>
+		<p v-if="menulist.menu === 'Please create a menu document'" class="logo">{{ $store.state.menu }}</p>
+		<!-- <nuxt-link class="logo" to="/">Home</nuxt-link>
 		<nav>
 			<ul>
-				<li v-for="menuLink in $store.state.menu.menu_links" :key="menuLink.id">
+				<li v-for="(menuLink, index) in menulist.menu-links" :key="index">
 					<prismic-link :field="menuLink.link">{{ $prismic.asText(menuLink.label) }}</prismic-link>
 				</li>
 			</ul>
-		</nav>
+		</nav> -->
 	</header>
 </template>
 
@@ -16,7 +16,8 @@
 export default {
 	data() {
 		return {
-			document: {}
+			document: {},
+			menulist: this.$store.state.menu,
 		}
 	},
 	async fetch() {
