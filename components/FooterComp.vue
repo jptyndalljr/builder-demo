@@ -50,6 +50,10 @@ export default {
 </script>
 
 <style lang="scss">
+.footer-logo img {
+	width: 90px;
+}
+
 .tri-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -62,8 +66,7 @@ export default {
 	display: flex;
 	justify-content: space-around;
 	img {
-		max-width: 90px;
-		max-height: 90px;
+		width: 90px;
 	}
 }
 </style>
