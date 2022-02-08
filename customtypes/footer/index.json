@@ -1,0 +1,117 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "column1": {
+        "config": {
+          "label": "column1",
+          "placeholder": "",
+          "fields": {
+            "header": {
+              "config": {
+                "label": "header",
+                "placeholder": ""
+              },
+              "type": "Text"
+            },
+            "col1Text": {
+              "config": {
+                "label": "textext",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+              },
+              "type": "StructuredText"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "column2": {
+        "config": {
+          "label": "column2",
+          "placeholder": "",
+          "fields": {
+            "header": {
+              "config": {
+                "label": "header",
+                "placeholder": ""
+              },
+              "type": "Text"
+            },
+            "text": {
+              "config": {
+                "label": "text",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+              },
+              "type": "StructuredText"
+            },
+            "facebook": {
+              "config": {
+                "label": "facebook",
+                "constraint": {},
+                "thumbnails": []
+              },
+              "type": "Image"
+            },
+            "twitter": {
+              "config": {
+                "label": "twitter",
+                "constraint": {},
+                "thumbnails": []
+              },
+              "type": "Image"
+            },
+            "instagram": {
+              "config": {
+                "label": "instagram",
+                "constraint": {},
+                "thumbnails": []
+              },
+              "type": "Image"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "column3": {
+        "config": {
+          "label": "column3",
+          "placeholder": "",
+          "fields": {
+            "header": {
+              "config": {
+                "label": "header",
+                "placeholder": ""
+              },
+              "type": "Text"
+            },
+            "text": {
+              "config": {
+                "label": "text",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+              },
+              "type": "StructuredText"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "logo": {
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    }
+  }
+}

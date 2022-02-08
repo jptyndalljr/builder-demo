@@ -17,13 +17,7 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "banner_slice": {
-              "type": "SharedSlice"
-            },
             "quote_slice": {
-              "type": "SharedSlice"
-            },
-            "text_image_right": {
               "type": "SharedSlice"
             }
           }

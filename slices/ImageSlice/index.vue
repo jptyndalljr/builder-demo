@@ -1,14 +1,14 @@
 <template>
   <section class="my-8" :style="`background-color: ${slice.primary.background}`">
 	  <div class="py-5 center-image">
-		  <img :src="slice.primary.logoimage.url" :alt="slice.primary.altText" />
+		  <img :src="slice.primary.image.url" :alt="slice.primary.altText" />
 	  </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: "CenterImageSlice",
+  name: "ImageSlice",
   props: {
     slice: {
       type: Object,

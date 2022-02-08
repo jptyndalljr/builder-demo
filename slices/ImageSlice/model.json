@@ -1,19 +1,19 @@
 {
-  "id": "center_image_slice",
+  "id": "image_slice",
   "type": "SharedSlice",
-  "name": "CenterImageSlice",
-  "description": "CenterImageSlice",
+  "name": "ImageSlice",
+  "description": "ImageSlice",
   "variations": [
     {
       "id": "default-slice",
       "name": "Default slice",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "CenterImageSlice",
+      "description": "ImageSlice",
       "primary": {
-        "logoimage": {
+        "image": {
           "config": {
-            "label": "logoimage",
+            "label": "image",
             "constraint": {},
             "thumbnails": []
           },
