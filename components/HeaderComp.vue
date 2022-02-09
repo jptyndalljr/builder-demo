@@ -4,9 +4,9 @@
 		<nav v-else>
 			<nuxt-link to="/">Home</nuxt-link>
 			<ul>
-				<li v-for="(menuitem, index) in menulist.menu-links" :key="index">
+				<!-- <li v-for="(menuitem, index) in menulist.menu-links" :key="index">
 					<prismic-link :field="menuitem.link.url">{{ $prismic.asText(menuitem.label) }}</prismic-link>
-				</li>
+				</li> -->
 			</ul>
 		</nav>
 	</header>
