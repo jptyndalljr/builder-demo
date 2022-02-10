@@ -19,6 +19,9 @@
           "choices": {
             "quote_slice": {
               "type": "SharedSlice"
+            },
+            "button": {
+              "type": "SharedSlice"
             }
           }
         }
