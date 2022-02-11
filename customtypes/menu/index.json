@@ -24,6 +24,15 @@
                 "placeholder": ""
               },
               "type": "Text"
+            },
+            "target": {
+              "config": {
+                "label": "Open link in new tab?",
+                "placeholder_false": "false",
+                "placeholder_true": "true",
+                "default_value": false
+              },
+              "type": "Boolean"
             }
           }
         },

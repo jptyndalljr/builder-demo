@@ -4,9 +4,9 @@
 		<nav v-else>
 			<nuxt-link to="/">Home</nuxt-link>
 			<ul>
-				<!-- <li v-for="(menuitem, index) in menulist.menu-links" :key="index">
-					<prismic-link :field="menuitem.link.url">{{ $prismic.asText(menuitem.label) }}</prismic-link>
-				</li> -->
+				<li v-for="(item, index) in this.menulist" :key="index">
+					<prismic-link :field="item.link" :target="item.target === true ? '_blank' : '_self'">{{ item.label }}</prismic-link>
+				</li>
 			</ul>
 		</nav>
 	</header>
@@ -17,7 +17,7 @@ export default {
 	data() {
 		return {
 			doc: {},
-			menulist: this.$store.state.menu, //menulist
+			menulist: this.$store.state.menu
 		}
 	},
 	async fetch() {
