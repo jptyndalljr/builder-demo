@@ -19,9 +19,6 @@ export default {
 		return {
 			title: '22Squared',
 		}
-	},
-	async middleware({ store, $prismic }) {
-		await store.dispatch('fetchMenu', $prismic)
 	}
 }
 </script>

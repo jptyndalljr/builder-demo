@@ -1,7 +1,6 @@
 <template>
 	<header class="site-header">
-		<p v-if="menulist === 'Please create a menu document'">{{ $store.state.menu }}</p>
-		<nav v-else>
+		<nav>
 			<nuxt-link to="/">Home</nuxt-link>
 			<ul>
 				<li v-for="(item, index) in this.menulist" :key="index">
@@ -17,15 +16,19 @@ export default {
 	data() {
 		return {
 			doc: {},
-			menulist: this.$store.state.menu
+			menulist: {}
 		}
 	},
 	async fetch() {
 		const res = await this.$prismic.api.getSingle('header');
+		const nav = await this.$prismic.api.getSingle('menu');
 		if (res) {
 			this.doc = res.data;
 		} else {
 			error({ statusCode: 404, message: 'Page not found' });
+		}
+		if (nav) {
+			this.menulist = nav.data['menu-links'];
 		}
 	}
 }
