@@ -2,11 +2,12 @@
 	<header class="site-header">
 		<nav class="flex flex-row justify-center nav">
 			<img :src="doc.logo.url" :alt="doc.logo.alt" />
-			<ul class="flex flex-row grow justify-between">
+			<ul class="sm:hidden md:flex md:flex-row md:grow md:justify-between">
 				<li v-for="(item, index) in this.menulist" :key="index" class="space-between p-5 nav-link">
 					<prismic-link :field="item.link" :target="item.target === true ? '_blank' : '_self'"><span class="main-nav-link">{{ item.label }}</span></prismic-link>
 				</li>
 			</ul>
+			<font-awesome-icon class="md:hidden" :icon="['fas', 'bars']" size="2x" />
 		</nav>
 	</header>
 </template>
