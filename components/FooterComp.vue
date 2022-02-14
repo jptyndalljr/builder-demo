@@ -15,9 +15,9 @@
 					<div v-if="d.header" class="h5">{{ d.header }}</div>
 					<prismic-rich-text class="footer-text" :field="d.text" />
 					<div class="social-media">
-						<font-awesome-icon :icon="['fab', 'instagram-square']" size="2x" class="mr-8 cursor-pointer" />
-						<font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="mr-8 cursor-pointer" />
-						<font-awesome-icon :icon="['fab', 'facebook-square']" size="2x" class="mr-8 cursor-pointer" />
+						<font-awesome-icon class="mr-8 cursor-pointer hover:text-22-sunrise" :icon="['fab', 'instagram-square']" size="2x" />
+						<font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="mr-8 cursor-pointer hover:text-22-sunrise" />
+						<font-awesome-icon :icon="['fab', 'facebook-square']" size="2x" class="mr-8 cursor-pointer hover:text-22-sunrise" />
 					</div>
 				</div>
 			</div>
