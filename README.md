@@ -32,9 +32,9 @@ $ yarn run slicemachine
 - Nuxt
 - Node
 - Sass
+- Fontawesome
 - TailWind
 - Prismic
-- Storybook
 
 ## Documentation
 - [Wireframes](https://www.figma.com/proto/jZTTWbhyxblcXwZJr1vund/22squared-website-ux-2021?page-i%5B%E2%80%A6%5D264=&node-id=19%3A848&viewport=241%2C48%2C0.13&scaling=min-zoom)
