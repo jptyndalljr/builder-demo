@@ -38,11 +38,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 a {
-	color: $sunrise;
 	font-weight: $base-font-weight;
 	letter-spacing: 0.35px;
 	line-height: 28px;
 	text-decoration: none;
+}
+
+a:hover {
+	color: $sunrise;
 }
 
 p a {

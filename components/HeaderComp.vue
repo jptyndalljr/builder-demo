@@ -1,9 +1,10 @@
 <template>
 	<header class="site-header">
-		<nav>
-			<ul>
-				<li v-for="(item, index) in this.menulist" :key="index">
-					<prismic-link :field="item.link" :target="item.target === true ? '_blank' : '_self'">{{ item.label }}</prismic-link>
+		<nav class="flex flex-row justify-center nav">
+			<img :src="doc.logo.url" :alt="doc.logo.alt" />
+			<ul class="flex flex-row grow justify-between">
+				<li v-for="(item, index) in this.menulist" :key="index" class="space-between p-5 nav-link">
+					<prismic-link :field="item.link" :target="item.target === true ? '_blank' : '_self'"><span class="main-nav-link">{{ item.label }}</span></prismic-link>
 				</li>
 			</ul>
 		</nav>
@@ -32,3 +33,13 @@ export default {
 	}
 }
 </script>
+
+<style lang="scss" scoped>
+.nav {
+	height: 75px;
+}
+
+.main-nav-link {
+	font-weight: bold;
+}
+</style>

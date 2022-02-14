@@ -12,19 +12,14 @@
         },
         "type": "UID"
       },
-      "slices": {
-        "type": "Slices",
-        "fieldset": "Slice Zone",
+      "text": {
         "config": {
-          "choices": {
-            "quote_slice": {
-              "type": "SharedSlice"
-            },
-            "button": {
-              "type": "SharedSlice"
-            }
-          }
-        }
+          "label": "text",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em,hyperlink"
+        },
+        "type": "StructuredText"
       }
     }
   }
