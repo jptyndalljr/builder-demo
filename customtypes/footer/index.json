@@ -5,6 +5,14 @@
   "status": true,
   "json": {
     "Main": {
+      "logo": {
+        "config": {
+          "label": "logo",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
       "column1": {
         "config": {
           "label": "column1",
@@ -17,12 +25,12 @@
               },
               "type": "Text"
             },
-            "col1Text": {
+            "Text": {
               "config": {
-                "label": "textext",
+                "label": "Text",
                 "placeholder": "",
                 "allowTargetBlank": true,
-                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+                "multi": "paragraph,preformatted,strong,em,hyperlink,list-item,o-list-item"
               },
               "type": "StructuredText"
             }
@@ -47,70 +55,13 @@
                 "label": "text",
                 "placeholder": "",
                 "allowTargetBlank": true,
-                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
-              },
-              "type": "StructuredText"
-            },
-            "facebook": {
-              "config": {
-                "label": "facebook",
-                "constraint": {},
-                "thumbnails": []
-              },
-              "type": "Image"
-            },
-            "twitter": {
-              "config": {
-                "label": "twitter",
-                "constraint": {},
-                "thumbnails": []
-              },
-              "type": "Image"
-            },
-            "instagram": {
-              "config": {
-                "label": "instagram",
-                "constraint": {},
-                "thumbnails": []
-              },
-              "type": "Image"
-            }
-          }
-        },
-        "type": "Group"
-      },
-      "column3": {
-        "config": {
-          "label": "column3",
-          "placeholder": "",
-          "fields": {
-            "header": {
-              "config": {
-                "label": "header",
-                "placeholder": ""
-              },
-              "type": "Text"
-            },
-            "text": {
-              "config": {
-                "label": "text",
-                "placeholder": "",
-                "allowTargetBlank": true,
-                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item,embed"
               },
               "type": "StructuredText"
             }
           }
         },
         "type": "Group"
-      },
-      "logo": {
-        "config": {
-          "label": "logo",
-          "constraint": {},
-          "thumbnails": []
-        },
-        "type": "Image"
       }
     }
   }

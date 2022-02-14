@@ -53,14 +53,14 @@ export default {
   },
   plugins: [{ src: "@/plugins/prismicLink", ssr: false }],
   components: true,
-  buildModules: ['@nuxt/postcss8', '@nuxtjs/sitemap'],
+  buildModules: ['@nuxt/postcss8', '@nuxtjs/sitemap', '@nuxtjs/fontawesome'],
   modules: ["@nuxtjs/style-resources", ['@nuxtjs/prismic', {
     endpoint: smConfig.apiEndpoint || '',
     linkResolver: '@/plugins/link-resolver',
 	htmlSerializer: '@/plugins/html-serializer',
   }], ['nuxt-sm'], '@nuxtjs/gtm'],
   generate: {
-    // fallback: '404.html', // Netlify reads a 404.html, Nuxt will load as an SPA
+    // fallback: '404.html'
     fallback: true
   },
   build: {
@@ -82,4 +82,10 @@ export default {
 	  id: "",
 	  pageTracking: true,
   },
+  fontawesome: {
+	  icons: {
+		  solid: true,
+		  brands: true
+	  }
+  }
 };
