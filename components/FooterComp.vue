@@ -10,7 +10,7 @@
 					<prismic-rich-text class="footer-text" :field="d.Text" />
 				</div>
 			</div>
-			<div class="col2 py-8">
+			<div class="col2 py-8 pl-8">
 				<div v-for="(d, index) in doc.column2" :key="index">
 					<div v-if="d.header" class="h5">{{ d.header }}</div>
 					<prismic-rich-text class="footer-text" :field="d.text" />
@@ -21,7 +21,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col3 py-8 pr-8">
+			<div class="col3 py-8 pl-8">
 				<nuxt-link to="/">Home</nuxt-link>
 				<ul>
 					<li v-for="(item, index) in this.menu" :key="index">

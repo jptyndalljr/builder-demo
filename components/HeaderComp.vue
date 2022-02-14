@@ -1,7 +1,6 @@
 <template>
 	<header class="site-header">
 		<nav>
-			<nuxt-link to="/">Home</nuxt-link>
 			<ul>
 				<li v-for="(item, index) in this.menulist" :key="index">
 					<prismic-link :field="item.link" :target="item.target === true ? '_blank' : '_self'">{{ item.label }}</prismic-link>
