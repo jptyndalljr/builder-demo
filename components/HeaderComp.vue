@@ -1,6 +1,6 @@
 <template>
 	<header class="site-header">
-		<nav class="xs:hidden">
+		<nav class="hidden md:block">
 			<ul class="md:flex md:flex-row md:grow md:justify-between md:space-between md:items-center">
 				<span v-for="(item, index) in this.menulist" :key="index" class="p-5" :class="index == list ? 'inline-flex' : ''">
 					<li class="nav-link">
@@ -12,7 +12,7 @@
 				</span>
 			</ul>
 		</nav>
-		<nav class="md:hidden">
+		<nav class="flex flex-row justify-between p-3 md:hidden">
 			<nuxt-link to="/"><img :src="doc.logo.url" :alt="doc.logo.alt" class="nav-logo" /></nuxt-link>
 			<font-awesome-icon :icon="['fas', 'bars']" size="2x" />
 		</nav>
