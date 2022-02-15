@@ -2,11 +2,11 @@
 	<header class="site-header">
 		<nav class="xs:hidden">
 			<ul class="md:flex md:flex-row md:grow md:justify-between md:space-between md:items-center">
-				<span v-for="(item, index) in this.menulist" :key="index" class="p-5">
+				<span v-for="(item, index) in this.menulist" :key="index" class="p-5" :class="index == list ? 'inline-flex' : ''">
 					<li class="nav-link">
 						<prismic-link :field="item.link" :target="item.target === true ? '_blank' : '_self'"><span class="main-nav-link">{{ item.label }}</span></prismic-link>
 					</li>
-					<li v-if="index == list">
+					<li v-if="index == list" class="pl-8">
 						<nuxt-link to="/"><img :src="doc.logo.url" :alt="doc.logo.alt" class="nav-logo" /></nuxt-link>
 					</li>
 				</span>
