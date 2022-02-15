@@ -2,7 +2,7 @@
 * Dev Lead: Richard Tuttle
 - Client: 22Squared
 
-## Initial Environment Setup
+## Initial Development Environment Setup
 At least LTS version of Node. (currently 16.13.x)
 
 ```bash
