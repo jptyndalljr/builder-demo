@@ -1,3 +1,4 @@
+import { getStoriesPaths } from 'slice-machine-ui/helpers/storybook';
 import smConfig from './sm.json';
 
 if (!smConfig.apiEndpoint) {
@@ -51,13 +52,16 @@ export default {
   styleResources: {
     scss: ["@/assets/scss/_variables.scss"]
   },
-  plugins: [{ src: "@/plugins/prismicLink", ssr: false }],
+  plugins: [{
+    src: "@/plugins/prismicLink",
+    ssr: false
+  }],
   components: true,
   buildModules: ['@nuxt/postcss8', '@nuxtjs/sitemap', '@nuxtjs/fontawesome'],
   modules: ["@nuxtjs/style-resources", ['@nuxtjs/prismic', {
     endpoint: smConfig.apiEndpoint || '',
     linkResolver: '@/plugins/link-resolver',
-	htmlSerializer: '@/plugins/html-serializer',
+    htmlSerializer: '@/plugins/html-serializer'
   }], ['nuxt-sm'], '@nuxtjs/gtm'],
   generate: {
     // fallback: '404.html'
@@ -65,27 +69,30 @@ export default {
   },
   build: {
     transpile: ['vue-slicezone', 'nuxt-sm'],
-	postcss: {
-		plugins: {
-			tailwindcss: {},
-			autoprefixer: {},
-		},
-	},
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {}
+      }
+    }
   },
   sitemap: {
-	  hostname: "https://22squared.com/",
-	  gzip: true,
-	  exclude: [],
-	  trailingSlash: true,
+    hostname: "https://22squared.com/",
+    gzip: true,
+    exclude: [],
+    trailingSlash: true
   },
   gtm: {
-	  id: "",
-	  pageTracking: true,
+    id: "",
+    pageTracking: true
   },
   fontawesome: {
-	  icons: {
-		  solid: true,
-		  brands: true
-	  }
+    icons: {
+      solid: true,
+      brands: true
+    }
+  },
+  storybook: {
+    stories: [...getStoriesPaths().map(path => path.replace("../", "~/"))]
   }
 };
