@@ -7,7 +7,6 @@ At least LTS version of Node. (currently 16.13.x)
 
 ```bash
 # install dependencies
-$ yarn global add prismic-cli
 $ yarn install
 
 # connect to prismic repo
