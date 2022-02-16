@@ -1,9 +1,9 @@
 <template>
-	<section class="section m-4">
-		<prismic-link class="button px-4 py-2" :field="slice.primary.link">{{
-			$prismic.asText(slice.primary.text)
-		}}</prismic-link>
-	</section>
+	<div class="m-4">
+		<prismic-link class="button px-4 py-2" :field="slice.primary.link">
+			{{ $prismic.asText(slice.primary.text) }}
+		</prismic-link>
+	</div>
 </template>
 
 <script>
@@ -22,10 +22,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.section {
-	position: relative;
-}
-
 .button {
 	background: $button-bg;
 	border: 2px solid $button-outline;
