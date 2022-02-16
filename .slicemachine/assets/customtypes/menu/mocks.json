@@ -1,0 +1,25 @@
+{
+  "id": "63a54742-c057-40e3-8053-5a54cb01fdb1",
+  "uid": "nihil-soluta-quo",
+  "type": "menu",
+  "data": {
+    "menu-links": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "synthesize dynamic schemas",
+        "target": true
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "label": "optimize sexy bandwidth",
+        "target": false
+      }
+    ]
+  }
+}

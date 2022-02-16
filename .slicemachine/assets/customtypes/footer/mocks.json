@@ -1,0 +1,80 @@
+{
+  "id": "0414b85f-f0bc-4f8f-94b5-c3aff2762124",
+  "uid": "atque-perspiciatis-sunt",
+  "type": "footer",
+  "data": {
+    "logo": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1570393080660-de4e4a15a247?w=900&h=500&fit=crop"
+    },
+    "column1": [
+      {
+        "header": "evolve compelling users",
+        "Text": [
+          {
+            "type": "paragraph",
+            "text": "Magna laborum ea nostrud deserunt non in sit anim exercitation do eu. Do velit aliquip do laborum labore nisi occaecat. Magna non fugiat fugiat dolore et pariatur labore veniam adipisicing.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "header": "maximize cutting-edge schemas",
+        "Text": [
+          {
+            "type": "paragraph",
+            "text": "Consequat Lorem irure eiusmod sint elit fugiat.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "header": "mesh web-enabled infrastructures",
+        "Text": [
+          {
+            "type": "paragraph",
+            "text": "Anim anim mollit aliqua esse amet occaecat proident adipisicing voluptate adipisicing.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "header": "grow user-centric markets",
+        "Text": [
+          {
+            "type": "paragraph",
+            "text": "Sit ut eiusmod esse cupidatat eu eiusmod cupidatat nostrud cupidatat ipsum id laboris proident. Pariatur do aliqua Lorem adipisicing cupidatat tempor amet. Exercitation occaecat commodo amet amet excepteur sit laboris.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "column2": [
+      {
+        "header": "innovate front-end bandwidth",
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Dolor velit id in excepteur duis sit velit nisi mollit magna incididunt velit voluptate consectetur sunt.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "header": "benchmark B2C applications",
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Culpa qui laboris laborum excepteur qui ullamco.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "331d7693-73c7-4936-916e-7981c67f371f",
+  "uid": "non-quia-ratione",
+  "type": "header",
+  "data": {
+    "logo": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=900&h=500&fit=crop"
+    }
+  }
+}
