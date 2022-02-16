@@ -25,12 +25,12 @@ $ yarn run storybook
 
 ## Enviroments
 
-| enviroment | URL                               |
-| ---------- | --------------------------------- |
-| DEV        |                                   |
-| STAGE      |                                   |
-| PROD       | https://22squared.com             |
-| Prismic    | https://22sq.prismic.io/          |
+| enviroment | URL                                                 |
+| ---------- | --------------------------------------------------- |
+| DEV        | https://development.d27gdy26dv3ltl.amplifyapp.com/  |
+| STAGE      |                                                     |
+| PROD       | https://22squared.com                               |
+| Prismic    | https://22sq.prismic.io/                            |
 ## Development environment utilizes:
 
 - Vue
