@@ -131,6 +131,15 @@
           ]
         }
       }
-    ]
+    ],
+    "Button": {
+      "default-slice": {
+        "primary": {
+          "text": {
+            "content": "CLICK ME!"
+          }
+        }
+      }
+    }
   }
 }

@@ -1,7 +1,7 @@
 <template>
 	<header class="site-header">
 		<nav class="hidden md:block">
-			<div class="w-12 m-3 p-8 border border-black border-8">
+			<div class="w-12 p-8 border-black border-8">
 				<nuxt-link to="/"><img :src="doc.logo.url" :alt="doc.logo.alt" class="nav-logo" /></nuxt-link>
 			</div>
 			<ul class="md:flex md:flex-row md:grow md:justify-between md:space-between md:items-center">

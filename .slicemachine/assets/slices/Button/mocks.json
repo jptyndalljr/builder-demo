@@ -5,13 +5,11 @@
     "slice_type": "button",
     "items": [],
     "primary": {
-      "text": [
-        {
-          "type": "paragraph",
-          "text": "Ipsum eu in adipisicing labore laboris ut nisi cupidatat eu ullamco. Consequat exercitation laborum irure. Dolore ad enim do.",
-          "spans": []
-        }
-      ]
+      "text": "CLICK ME!",
+      "link": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      }
     }
   }
 ]

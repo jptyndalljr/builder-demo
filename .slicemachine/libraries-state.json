@@ -21,12 +21,18 @@
               "primary": {
                 "text": {
                   "config": {
-                    "label": "Text",
-                    "placeholder": "",
-                    "allowTargetBlank": true,
-                    "single": "paragraph,hyperlink"
+                    "label": "text",
+                    "placeholder": ""
                   },
-                  "type": "StructuredText"
+                  "type": "Text"
+                },
+                "link": {
+                  "config": {
+                    "label": "link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
                 }
               },
               "items": {}
@@ -40,13 +46,11 @@
             "slice_type": "button",
             "items": [],
             "primary": {
-              "text": [
-                {
-                  "type": "paragraph",
-                  "text": "Ipsum eu in adipisicing labore laboris ut nisi cupidatat eu ullamco. Consequat exercitation laborum irure. Dolore ad enim do.",
-                  "spans": []
-                }
-              ]
+              "text": "CLICK ME!",
+              "link": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              }
             }
           }
         },
@@ -55,7 +59,13 @@
           "isDirectory": true,
           "extension": "vue"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Button/default-slice/preview.png",
+            "width": 800,
+            "height": 28
+          }
+        }
       },
       "image_slice": {
         "library": "slices",

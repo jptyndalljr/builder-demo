@@ -1,7 +1,7 @@
 <template>
 	<div class="m-4">
 		<prismic-link class="button px-4 py-2" :field="slice.primary.link">
-			{{ $prismic.asText(slice.primary.text) }}
+			{{ slice.primary.text }}
 		</prismic-link>
 	</div>
 </template>

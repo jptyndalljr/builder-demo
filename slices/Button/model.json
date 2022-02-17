@@ -13,12 +13,18 @@
       "primary": {
         "text": {
           "config": {
-            "label": "Text",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "paragraph,hyperlink"
+            "label": "text",
+            "placeholder": ""
           },
-          "type": "StructuredText"
+          "type": "Text"
+        },
+        "link": {
+          "config": {
+            "label": "link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
         }
       },
       "items": {}
