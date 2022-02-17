@@ -9,6 +9,9 @@ At least LTS version of Node. (currently 16.13.x)
 # install dependencies
 $ yarn install
 
+#install storybook dependencies -- follow prompts
+$ yarn run addsb
+
 # connect to prismic repo
 $ npx @slicemachine/init
 ```

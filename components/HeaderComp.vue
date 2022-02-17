@@ -1,15 +1,13 @@
 <template>
 	<header class="site-header">
 		<nav class="hidden md:block">
+			<div class="w-12 m-3 p-8 border border-black border-8">
+				<nuxt-link to="/"><img :src="doc.logo.url" :alt="doc.logo.alt" class="nav-logo" /></nuxt-link>
+			</div>
 			<ul class="md:flex md:flex-row md:grow md:justify-between md:space-between md:items-center">
-				<span v-for="(item, index) in this.menulist" :key="index" class="p-5" :class="index == list ? 'inline-flex' : ''">
-					<li class="nav-link">
-						<prismic-link :field="item.link" :target="item.target === true ? '_blank' : '_self'"><span class="main-nav-link">{{ item.label }}</span></prismic-link>
-					</li>
-					<li v-if="index == list" class="pl-8">
-						<nuxt-link to="/"><img :src="doc.logo.url" :alt="doc.logo.alt" class="nav-logo" /></nuxt-link>
-					</li>
-				</span>
+				<li class="nav-link p-5" v-for="(item, index) in this.menulist" :key="index" :class="index == list ? 'inline-flex' : ''">
+					<prismic-link :field="item.link" :target="item.target === true ? '_blank' : '_self'"><span class="main-nav-link">{{ item.label }}</span></prismic-link>
+				</li>
 			</ul>
 		</nav>
 		<nav class="flex flex-row justify-between p-3 md:hidden">
@@ -55,5 +53,9 @@ export default {
 
 .nav-logo {
 	width: 60px;
+}
+
+nav > ul {
+	border-bottom: 10px solid black;
 }
 </style>
