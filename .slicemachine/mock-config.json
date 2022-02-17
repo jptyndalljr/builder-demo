@@ -28,14 +28,7 @@
         "content": "https://images.unsplash.com/photo-1570393080660-de4e4a15a247"
       }
     },
-    "homepage": {
-      "text": {
-        "config": {
-          "patternType": "PARAGRAPH",
-          "blocks": 1
-        }
-      }
-    },
+    "homepage": {},
     "page-type": {},
     "header": {}
   },
