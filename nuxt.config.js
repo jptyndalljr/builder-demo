@@ -1,8 +1,7 @@
-import { getStoriesPaths } from 'slice-machine-ui/helpers/storybook';
 import smConfig from './sm.json';
 
 if (!smConfig.apiEndpoint) {
-  console.warn("Looks like Slice Machine hasn't been bootstraped already.");
+  console.warn("Looks like Slice Machine hasn't been configured already.");
 }
 
 export default {
@@ -94,8 +93,5 @@ export default {
       solid: true,
       brands: true
     }
-  },
-  storybook: {
-    stories: [...getStoriesPaths().map(path => path.replace("../", "~/"))]
   }
 };

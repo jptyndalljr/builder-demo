@@ -4,6 +4,5 @@
     "@/slices"
   ],
   "_latest": "0.2.0",
-  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator",
-  "storybook": "http://localhost:3003"
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }

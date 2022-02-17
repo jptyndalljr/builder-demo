@@ -9,9 +9,6 @@ At least LTS version of Node. (currently 16.13.x)
 # install dependencies
 $ yarn install
 
-#install storybook dependencies -- follow prompts
-$ yarn run addsb
-
 # connect to prismic repo
 $ npx @slicemachine/init
 ```
@@ -19,11 +16,6 @@ $ npx @slicemachine/init
 ```bash
 $ yarn run dev
 $ yarn run slicemachine
-```
-
-### to launch Storybook
-```bash
-$ yarn run storybook
 ```
 
 ## Enviroments
@@ -43,6 +35,7 @@ $ yarn run storybook
 - Fontawesome
 - TailWind
 - Prismic
-- Storybook
+
 ## Documentation
 - [Wireframes](https://www.figma.com/proto/jZTTWbhyxblcXwZJr1vund/22squared-website-ux-2021?page-i%5B%E2%80%A6%5D264=&node-id=19%3A848&viewport=241%2C48%2C0.13&scaling=min-zoom)
+- [Confluence](https://22squared.atlassian.net/wiki/spaces/TEC/pages/2107015172/Project+Overview)
