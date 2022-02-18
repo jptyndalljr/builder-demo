@@ -61,7 +61,7 @@ export default {
   components: true,
   buildModules: ['@nuxt/postcss8', '@nuxtjs/sitemap', '@nuxtjs/fontawesome'],
   modules: ["@nuxtjs/style-resources", ['@nuxtjs/prismic', {
-    endpoint: smConfig.apiEndpoint || '',
+    endpoint: smConfig.apiEndpoint || "",
     linkResolver: '@/plugins/link-resolver',
     htmlSerializer: '@/plugins/html-serializer'
   }], ['nuxt-sm'], '@nuxtjs/gtm'],

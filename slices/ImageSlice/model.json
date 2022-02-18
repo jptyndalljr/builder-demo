@@ -19,6 +19,31 @@
           },
           "type": "Image"
         },
+        "caption": {
+          "config": {
+            "label": "caption",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "imageLeftAligned",
+      "name": "Image left-aligned",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageSlice",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
         "altText": {
           "config": {
             "label": "altText",
@@ -26,12 +51,44 @@
           },
           "type": "Text"
         },
-        "background": {
+        "caption": {
           "config": {
-            "label": "background",
+            "label": "caption",
             "placeholder": ""
           },
-          "type": "Color"
+          "type": "Text"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "imageRightAligned",
+      "name": "Image right-aligned",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageSlice",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "altText": {
+          "config": {
+            "label": "altText",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "caption": {
+          "config": {
+            "label": "caption",
+            "placeholder": ""
+          },
+          "type": "Text"
         }
       },
       "items": {}

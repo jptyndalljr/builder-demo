@@ -1,7 +1,11 @@
 <template>
-  <section class="my-8" :style="`background-color: ${slice.primary.background}`">
-	  <div class="py-5 center-image">
-		  <img :src="slice.primary.image.url" :alt="slice.primary.altText" />
+  <section class="my-8">
+	  <div class="p-5 flex" :class="slice.variation">
+		<figure v-if="slice.primary.caption">
+			<img :src="slice.primary.image.url" :alt="slice.primary.image.alt" />
+			<figcaption>{{ slice.primary.caption }}</figcaption>
+		</figure>
+		<img v-else :src="slice.primary.image.url" :alt="slice.primary.image.alt" />
 	  </div>
   </section>
 </template>
@@ -17,17 +21,26 @@ export default {
         return {}
       },
     },
-  },
+  }
 }
 </script>
 
-<style scoped>
-.center-image {
-	display: flex;
+<style scoped lang="scss">
+.default-slice {
 	justify-content: center;
 }
 
-.center-image img {
+.imageLeftAligned {
+	justify-content: start;
+	padding-left: 20px;
+}
+
+.imageRightAligned {
+	justify-content: end;
+	padding-right: 20px;
+}
+
+img {
 	width: auto;
 	height: auto;
 	max-height: 200px;

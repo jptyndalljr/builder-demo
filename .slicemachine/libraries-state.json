@@ -103,6 +103,31 @@
                   },
                   "type": "Image"
                 },
+                "caption": {
+                  "config": {
+                    "label": "caption",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "imageLeftAligned",
+              "name": "Image left-aligned",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ImageSlice",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
                 "altText": {
                   "config": {
                     "label": "altText",
@@ -110,12 +135,44 @@
                   },
                   "type": "Text"
                 },
-                "background": {
+                "caption": {
                   "config": {
-                    "label": "background",
+                    "label": "caption",
                     "placeholder": ""
                   },
-                  "type": "Color"
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "imageRightAligned",
+              "name": "Image right-aligned",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ImageSlice",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "altText": {
+                  "config": {
+                    "label": "altText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "caption": {
+                  "config": {
+                    "label": "caption",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
                 }
               },
               "items": {}
@@ -136,10 +193,47 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
               },
-              "altText": "e-enable bleeding-edge communities",
-              "background": "#191adc"
+              "caption": "strategize impactful interfaces"
+            }
+          },
+          "imageLeftAligned": {
+            "variation": "imageLeftAligned",
+            "name": "Image left-aligned",
+            "slice_type": "image_slice",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"
+              },
+              "altText": "cultivate B2C web services",
+              "caption": "enable compelling web services"
+            }
+          },
+          "imageRightAligned": {
+            "variation": "imageRightAligned",
+            "name": "Image right-aligned",
+            "slice_type": "image_slice",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+              },
+              "altText": "incubate synergistic methodologies",
+              "caption": "implement B2B e-markets"
             }
           }
         },
@@ -152,7 +246,17 @@
           "default-slice": {
             "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/default-slice/preview.png",
             "width": 800,
-            "height": 240
+            "height": 268
+          },
+          "imageLeftAligned": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageLeftAligned/preview.png",
+            "width": 800,
+            "height": 268
+          },
+          "imageRightAligned": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageRightAligned/preview.png",
+            "width": 800,
+            "height": 268
           }
         }
       },
