@@ -1,0 +1,34 @@
+{
+  "id": "video_slice",
+  "type": "SharedSlice",
+  "name": "VideoSlice",
+  "description": "VideoSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "VideoSlice",
+      "primary": {
+        "video": {
+          "config": {
+            "label": "video",
+            "placeholder": ""
+          },
+          "type": "Embed"
+        },
+        "description": {
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item,preformatted"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
