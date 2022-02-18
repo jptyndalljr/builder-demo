@@ -25,6 +25,15 @@
             "allowTargetBlank": false
           },
           "type": "Link"
+        },
+        "target": {
+          "config": {
+            "label": "Open in a new window",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
         }
       },
       "items": {}

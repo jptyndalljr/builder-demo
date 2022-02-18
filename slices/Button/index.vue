@@ -1,6 +1,6 @@
 <template>
 	<div class="m-4">
-		<prismic-link class="button px-4 py-2" :field="slice.primary.link">
+		<prismic-link class="button px-4 py-2" :field="slice.primary.link" :target="slice.primary.target ? '_blank' : '_self'">
 			{{ slice.primary.text }}
 		</prismic-link>
 	</div>
@@ -29,7 +29,11 @@ export default {
 	font-weight: 700;
 	text-align: center;
 }
+
 a {
 	color: $button-text;
+	&:hover {
+		background: $button-hover;
+	}
 }
 </style>

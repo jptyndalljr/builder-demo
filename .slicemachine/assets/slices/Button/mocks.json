@@ -8,8 +8,9 @@
       "text": "CLICK ME!",
       "link": {
         "link_type": "Web",
-        "url": "http://google.com"
-      }
+        "url": "http://twitter.com"
+      },
+      "target": true
     }
   }
 ]
