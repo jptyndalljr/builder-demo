@@ -38,6 +38,7 @@ export default {
 .textImageLeft {
 	flex-direction: row-reverse;
 	height: 130px;
+	padding-left: 20px;
 }
 
 .titleImage {
