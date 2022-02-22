@@ -183,6 +183,30 @@
           }
         }
       }
+    },
+    "HeroBannerSlice": {
+      "default-slice": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "background": {
+            "content": "https://images.unsplash.com/photo-1541367777708-7905fe3296c0"
+          },
+          "linkLabel": {
+            "content": "Go somewhere"
+          }
+        }
+      }
     }
   }
 }

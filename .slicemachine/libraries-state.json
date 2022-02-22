@@ -77,6 +77,121 @@
           }
         }
       },
+      "hero_banner_slice": {
+        "library": "slices",
+        "id": "hero_banner_slice",
+        "name": "HeroBannerSlice",
+        "description": "HeroBannerSlice",
+        "model": {
+          "id": "hero_banner_slice",
+          "type": "SharedSlice",
+          "name": "HeroBannerSlice",
+          "description": "HeroBannerSlice",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroBannerSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "background": {
+                  "config": {
+                    "label": "background",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "link": {
+                  "config": {
+                    "label": "link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "linkLabel": {
+                  "config": {
+                    "label": "linkLabel",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "hero_banner_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Evolve virtual vortals",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Qui laboris magna labore tempor ad sit commodo velit. Commodo ea elit voluptate cupidatat. Dolore sit pariatur ullamco elit laboris dolore.",
+                  "spans": []
+                }
+              ],
+              "background": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1541367777708-7905fe3296c0?w=900&h=500&fit=crop"
+              },
+              "link": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "linkLabel": "Go somewhere"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/HeroBannerSlice/default-slice/preview.png",
+            "width": 800,
+            "height": 264
+          }
+        }
+      },
       "image_slice": {
         "library": "slices",
         "id": "image_slice",
@@ -640,7 +755,37 @@
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Ad eiusmod ea dolor mollit velit exercitation nostrud ut in magna commodo.",
+                  "text": "Aute est occaecat ad reprehenderit voluptate elit minim Lorem esse qui nulla labore voluptate non.",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "fullWidth": {
+            "variation": "fullWidth",
+            "name": "Full Width",
+            "slice_type": "video_slice",
+            "items": [],
+            "primary": {
+              "video": {
+                "title": "Prismic January Product Meetup",
+                "author_name": "Prismic",
+                "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
+                "type": "video",
+                "height": 113,
+                "width": 200,
+                "version": "1.0",
+                "provider_name": "YouTube",
+                "provider_url": "https://www.youtube.com/",
+                "thumbnail_height": 360,
+                "thumbnail_width": 480,
+                "thumbnail_url": "https://i.ytimg.com/vi/fiOwHYFkUz0/hqdefault.jpg",
+                "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/fiOwHYFkUz0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+              },
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Occaecat anim irure est sunt nostrud sint velit voluptate dolor. Incididunt esse et tempor ea veniam veniam commodo.",
                   "spans": []
                 }
               ]
@@ -656,7 +801,7 @@
           "default-slice": {
             "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/VideoSlice/default-slice/preview.png",
             "width": 800,
-            "height": 388
+            "height": 416
           }
         }
       }
