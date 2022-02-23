@@ -1,0 +1,19 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "text_slice",
+    "items": [],
+    "primary": {
+      "headline": "Headline goes here",
+      "subhead": "Subhead goes here",
+      "copy": [
+        {
+          "type": "paragraph",
+          "text": "Velit dolore laboris laborum pariatur sint exercitation ipsum ad ut nostrud esse sit fugiat sint.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

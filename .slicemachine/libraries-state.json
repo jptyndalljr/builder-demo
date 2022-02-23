@@ -71,7 +71,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Button/default-slice/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/Button/default-slice/preview.png",
             "width": 800,
             "height": 28
           }
@@ -359,17 +359,17 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/default-slice/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/ImageSlice/default-slice/preview.png",
             "width": 800,
             "height": 268
           },
           "imageLeftAligned": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageLeftAligned/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageLeftAligned/preview.png",
             "width": 800,
             "height": 268
           },
           "imageRightAligned": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageRightAligned/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageRightAligned/preview.png",
             "width": 800,
             "height": 268
           }
@@ -481,12 +481,12 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/default-slice/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/default-slice/preview.png",
             "width": 800,
             "height": 108
           },
           "quoteReference": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/quoteReference/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/quoteReference/preview.png",
             "width": 800,
             "height": 432
           }
@@ -667,19 +667,97 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextImageRight/default-slice/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/TextImageRight/default-slice/preview.png",
             "width": 800,
             "height": 130
           },
           "textImageLeft": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextImageRight/textImageLeft/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/TextImageRight/textImageLeft/preview.png",
             "width": 800,
             "height": 130
           },
           "titleImage": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextImageRight/titleImage/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/TextImageRight/titleImage/preview.png",
             "width": 800,
             "height": 222
+          }
+        }
+      },
+      "text_slice": {
+        "library": "slices",
+        "id": "text_slice",
+        "name": "TextSlice",
+        "description": "TextSlice",
+        "model": {
+          "id": "text_slice",
+          "type": "SharedSlice",
+          "name": "TextSlice",
+          "description": "TextSlice",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextSlice",
+              "primary": {
+                "headline": {
+                  "config": {
+                    "label": "Headline",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "subhead": {
+                  "config": {
+                    "label": "Subhead",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "copy": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Copy",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+                  }
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "text_slice",
+            "items": [],
+            "primary": {
+              "headline": "Headline goes here",
+              "subhead": "Subhead goes here",
+              "copy": [
+                {
+                  "type": "paragraph",
+                  "text": "Velit dolore laboris laborum pariatur sint exercitation ipsum ad ut nostrud esse sit fugiat sint.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/TextSlice/default-slice/preview.png",
+            "width": 800,
+            "height": 224
           }
         }
       },
@@ -799,7 +877,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/VideoSlice/default-slice/preview.png",
+            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/VideoSlice/default-slice/preview.png",
             "width": 800,
             "height": 416
           }

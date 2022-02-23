@@ -1,0 +1,41 @@
+{
+  "id": "text_slice",
+  "type": "SharedSlice",
+  "name": "TextSlice",
+  "description": "TextSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TextSlice",
+      "primary": {
+        "headline": {
+          "config": {
+            "label": "Headline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "subhead": {
+          "config": {
+            "label": "Subhead",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "copy": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Copy",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

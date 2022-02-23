@@ -184,6 +184,10 @@
         }
       }
     },
+    "TextSlice": {
+      "default-slice": {
+        "primary": {
+          "copy": {
     "HeroBannerSlice": {
       "default-slice": {
         "primary": {
@@ -199,6 +203,11 @@
               "blocks": 1
             }
           },
+          "headline": {
+            "content": "Headline goes here"
+          },
+          "subhead": {
+            "content": "Subhead goes here"
           "background": {
             "content": "https://images.unsplash.com/photo-1541367777708-7905fe3296c0"
           },
