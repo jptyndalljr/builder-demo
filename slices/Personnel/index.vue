@@ -34,6 +34,7 @@ export default {
 	height: 13rem;
 	background-size: cover;
 	filter: grayscale(100%);
+	background-position: center center;
 }
 
 .employee-name {
