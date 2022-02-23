@@ -71,7 +71,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/Button/default-slice/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Button/default-slice/preview.png",
             "width": 800,
             "height": 28
           }
@@ -359,19 +359,126 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/ImageSlice/default-slice/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/default-slice/preview.png",
             "width": 800,
             "height": 268
           },
           "imageLeftAligned": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageLeftAligned/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageLeftAligned/preview.png",
             "width": 800,
             "height": 268
           },
           "imageRightAligned": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageRightAligned/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ImageSlice/imageRightAligned/preview.png",
             "width": 800,
             "height": 268
+          }
+        }
+      },
+      "personnel": {
+        "library": "slices",
+        "id": "personnel",
+        "name": "Personnel",
+        "description": "Personnel",
+        "model": {
+          "id": "personnel",
+          "type": "SharedSlice",
+          "name": "Personnel",
+          "description": "Personnel",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Personnel",
+              "primary": {},
+              "items": {
+                "employee": {
+                  "config": {
+                    "label": "employee",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "name": {
+                  "config": {
+                    "label": "name",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "title": {
+                  "config": {
+                    "label": "title",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "personnel",
+            "items": [
+              {
+                "employee": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+                },
+                "name": "deliver synergistic supply-chains",
+                "title": "repurpose enterprise blockchains"
+              },
+              {
+                "employee": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+                },
+                "name": "generate virtual action-items",
+                "title": "drive intuitive functionalities"
+              },
+              {
+                "employee": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+                },
+                "name": "brand cross-platform partnerships",
+                "title": "incubate robust systems"
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Personnel/default-slice/preview.png",
+            "width": 800,
+            "height": 1014
           }
         }
       },
@@ -481,12 +588,12 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/default-slice/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/default-slice/preview.png",
             "width": 800,
             "height": 108
           },
           "quoteReference": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/quoteReference/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/QuoteSlice/quoteReference/preview.png",
             "width": 800,
             "height": 432
           }
@@ -667,17 +774,17 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/TextImageRight/default-slice/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextImageRight/default-slice/preview.png",
             "width": 800,
             "height": 130
           },
           "textImageLeft": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/TextImageRight/textImageLeft/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextImageRight/textImageLeft/preview.png",
             "width": 800,
             "height": 130
           },
           "titleImage": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/TextImageRight/titleImage/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextImageRight/titleImage/preview.png",
             "width": 800,
             "height": 222
           }
@@ -755,7 +862,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/TextSlice/default-slice/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/TextSlice/default-slice/preview.png",
             "width": 800,
             "height": 224
           }
@@ -877,7 +984,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/john.tyndall/Sites/22squared-website-static/.slicemachine/assets/slices/VideoSlice/default-slice/preview.png",
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/VideoSlice/default-slice/preview.png",
             "width": 800,
             "height": 416
           }

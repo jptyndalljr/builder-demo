@@ -3,6 +3,7 @@
 export { default as Button } from './Button'
 export { default as HeroBannerSlice } from './HeroBannerSlice'
 export { default as ImageSlice } from './ImageSlice'
+export { default as Personnel } from './Personnel'
 export { default as QuoteSlice } from './QuoteSlice'
 export { default as TextImageRight } from './TextImageRight'
 export { default as TextSlice } from './TextSlice'
