@@ -1,6 +1,88 @@
 {
   "slices": {
     "components": {
+      "accordion": {
+        "library": "slices",
+        "id": "accordion",
+        "name": "Accordion",
+        "description": "Accordion",
+        "model": {
+          "id": "accordion",
+          "type": "SharedSlice",
+          "name": "Accordion",
+          "description": "Accordion",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Accordion",
+              "primary": {},
+              "items": {
+                "title": {
+                  "config": {
+                    "label": "title",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "content": {
+                  "config": {
+                    "label": "content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "accordion",
+            "items": [
+              {
+                "title": "generate cutting-edge initiatives",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Fugiat adipisicing consectetur ullamco dolore Lorem proident sint sint.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": "productize sticky e-markets",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Lorem magna incididunt voluptate aliqua sit minim et esse commodo Lorem incididunt amet eiusmod et.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Accordion/default-slice/preview.png",
+            "width": 800,
+            "height": 168
+          }
+        }
+      },
       "button": {
         "library": "slices",
         "id": "button",

@@ -28,7 +28,8 @@ export default {
 		}
 	},
 	async fetch() {
-		this.data = await fetch('https://api.jobvite.com/api/v2/job?api=22squared_api_key&sc=3dcb08c8d71912fe583444382bcbc135').then(res => res.json());
+		let opts = { headers: { 'mode': 'no-cors' } };
+		this.data = await fetch('https://api.jobvite.com/api/v2/job?api=22squared_api_key&sc=3dcb08c8d71912fe583444382bcbc135', opts).then(res => res.json());
 	},
 	methods: {
 		timeConvert(ts) {

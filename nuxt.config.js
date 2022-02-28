@@ -79,7 +79,7 @@ export default {
     }
   },
   sitemap: {
-    hostname: "https://22squared.com/",
+    hostname: "https:/www.22squared.com/",
     gzip: true,
     exclude: [],
     trailingSlash: true

@@ -30,7 +30,8 @@
     },
     "homepage": {},
     "page-type": {},
-    "header": {}
+    "header": {},
+    "acc-type": {}
   },
   "slices": {
     "FooterSlice": {},
@@ -191,6 +192,19 @@
           },
           "title": {
             "content": "Employee Title"
+          }
+        }
+      }
+    },
+    "Accordion": {
+      "default-slice": {
+        "primary": {},
+        "items": {
+          "content": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 1
+            }
           }
         }
       }
