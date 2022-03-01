@@ -1,5 +1,5 @@
 <template>
-  <section class="px-3 w-full contact-section">
+  <section class="p-3 w-full contact-section">
 	  <div class="grid contact-us">
 		  <h1 class="heading">Contact Us</h1>
 		  <div class="left text-center">

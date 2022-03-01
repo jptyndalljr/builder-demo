@@ -1,5 +1,5 @@
 <template>
-  <section class="accordion-area mx-5">
+  <section class="accordion-area m-5">
 	  <div class="tabs">
 		<div class="tab p-3" v-for="(item, i) in slice.items" :key="`slice-item-${i}`" role="presentation">
 			<!-- <input type="checkbox" :id="`chck${i}`" /> -->
