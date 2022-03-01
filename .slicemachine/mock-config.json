@@ -208,6 +208,18 @@
           }
         }
       }
+    },
+    "ContactSlice": {
+      "default-slice": {
+        "primary": {
+          "header1": {
+            "content": "Hire Us"
+          },
+          "link1": {
+            "content": "mailto:richard.tuttle@22squared.com"
+          }
+        }
+      }
     }
   }
 }

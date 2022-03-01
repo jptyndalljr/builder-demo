@@ -2,6 +2,7 @@
 
 export { default as Accordion } from './Accordion'
 export { default as Button } from './Button'
+export { default as ContactSlice } from './ContactSlice'
 export { default as HeroBannerSlice } from './HeroBannerSlice'
 export { default as ImageSlice } from './ImageSlice'
 export { default as Personnel } from './Personnel'

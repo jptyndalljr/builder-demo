@@ -159,6 +159,108 @@
           }
         }
       },
+      "contact_slice": {
+        "library": "slices",
+        "id": "contact_slice",
+        "name": "ContactSlice",
+        "description": "ContactSlice",
+        "model": {
+          "id": "contact_slice",
+          "type": "SharedSlice",
+          "name": "ContactSlice",
+          "description": "ContactSlice",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContactSlice",
+              "primary": {
+                "header1": {
+                  "config": {
+                    "label": "header1",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "btnText1": {
+                  "config": {
+                    "label": "btnText1",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "link1": {
+                  "config": {
+                    "label": "link1",
+                    "placeholder": "Header 1 Button",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "header2": {
+                  "config": {
+                    "label": "header2",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "btnText2": {
+                  "config": {
+                    "label": "btnText2",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "link2": {
+                  "config": {
+                    "label": "link2",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "contact_slice",
+            "items": [],
+            "primary": {
+              "header1": "Hire Us",
+              "btnText1": "transition 24/7 e-commerce",
+              "link1": {
+                "link_type": "Web",
+                "url": "mailto:richard.tuttle@22squared.com"
+              },
+              "header2": "exploit holistic e-commerce",
+              "btnText2": "harness web-enabled partnerships",
+              "link2": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/ContactSlice/default-slice/preview.png",
+            "width": 800,
+            "height": 568
+          }
+        }
+      },
       "hero_banner_slice": {
         "library": "slices",
         "id": "hero_banner_slice",

@@ -22,14 +22,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.button {
-	background: $button-bg;
-	border: 2px solid $button-outline;
-	font-family: $ff-sans;
-	font-weight: 700;
-	text-align: center;
-}
-
 a {
 	color: $button-text;
 	&:hover {
