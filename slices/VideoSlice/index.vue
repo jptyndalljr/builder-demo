@@ -25,7 +25,7 @@ export default {
   },
   methods: {
 	  vurl(type) {
-		  if (type === false) {
+		  if (type === true) {
 			  return "https://player.vimeo.com/video/" + this.slice.primary.videoid;
 		  } else {
 			  return "https://www.youtube.com/watch?v=" + this.slice.primary.videoid;

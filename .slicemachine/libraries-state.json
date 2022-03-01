@@ -1213,12 +1213,12 @@
             "slice_type": "video_slice",
             "items": [],
             "primary": {
-              "source": false,
+              "source": true,
               "videoid": "uGPC9wNTBbw",
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Velit laboris ad enim occaecat cillum exercitation est do qui nostrud eiusmod nostrud ea. In eiusmod deserunt pariatur. Dolore culpa nisi sit adipisicing dolor proident labore labore id.",
+                  "text": "Exercitation velit labore consectetur proident.",
                   "spans": []
                 }
               ]
@@ -1234,7 +1234,7 @@
           "default-slice": {
             "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/VideoSlice/default-slice/preview.png",
             "width": 800,
-            "height": 262
+            "height": 487
           }
         }
       }
