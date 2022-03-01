@@ -10,7 +10,35 @@
         "link_type": "Web",
         "url": "http://twitter.com"
       },
-      "target": true
+      "target": false
+    }
+  },
+  {
+    "variation": "buttonCenterAligned",
+    "name": "Button center aligned",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "text": "mesh dynamic initiatives",
+      "link": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "target": false
+    }
+  },
+  {
+    "variation": "buttonRightAligned",
+    "name": "Button right aligned",
+    "slice_type": "button",
+    "items": [],
+    "primary": {
+      "text": "extend intuitive architectures",
+      "link": {
+        "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "target": false
     }
   }
 ]

@@ -127,6 +127,74 @@
                 }
               },
               "items": {}
+            },
+            {
+              "id": "buttonCenterAligned",
+              "name": "Button center aligned",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "text": {
+                  "config": {
+                    "label": "text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "link": {
+                  "config": {
+                    "label": "link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "target": {
+                  "config": {
+                    "label": "Open in a new window",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  },
+                  "type": "Boolean"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "buttonRightAligned",
+              "name": "Button right aligned",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Button",
+              "primary": {
+                "text": {
+                  "config": {
+                    "label": "text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "link": {
+                  "config": {
+                    "label": "link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "target": {
+                  "config": {
+                    "label": "Open in a new window",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  },
+                  "type": "Boolean"
+                }
+              },
+              "items": {}
             }
           ]
         },
@@ -142,7 +210,35 @@
                 "link_type": "Web",
                 "url": "http://twitter.com"
               },
-              "target": true
+              "target": false
+            }
+          },
+          "buttonCenterAligned": {
+            "variation": "buttonCenterAligned",
+            "name": "Button center aligned",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "text": "mesh dynamic initiatives",
+              "link": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              },
+              "target": false
+            }
+          },
+          "buttonRightAligned": {
+            "variation": "buttonRightAligned",
+            "name": "Button right aligned",
+            "slice_type": "button",
+            "items": [],
+            "primary": {
+              "text": "extend intuitive architectures",
+              "link": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "target": false
             }
           }
         },
@@ -154,6 +250,16 @@
         "screenshotPaths": {
           "default-slice": {
             "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Button/default-slice/preview.png",
+            "width": 800,
+            "height": 28
+          },
+          "buttonCenterAligned": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Button/buttonCenterAligned/preview.png",
+            "width": 800,
+            "height": 28
+          },
+          "buttonRightAligned": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Button/buttonRightAligned/preview.png",
             "width": 800,
             "height": 28
           }

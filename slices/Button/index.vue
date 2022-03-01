@@ -1,8 +1,6 @@
 <template>
-	<div class="m-4">
-		<prismic-link class="button px-4 py-2" :field="slice.primary.link" :target="slice.primary.target ? '_blank' : '_self'">
-			{{ slice.primary.text }}
-		</prismic-link>
+	<div class="m-4" :class="slice.variation">
+		<prismic-link class="button px-4 py-2" :field="slice.primary.link" :target="slice.primary.target ? '_blank' : '_self'">{{ slice.primary.text }}</prismic-link>
 	</div>
 </template>
 
@@ -27,5 +25,17 @@ a {
 	&:hover {
 		background: $button-hover;
 	}
+}
+
+.default-slice {
+	text-align: left;
+}
+
+.buttonCenterAligned {
+	text-align: center;
+}
+
+.buttonRightAligned {
+	text-align: right;
 }
 </style>
