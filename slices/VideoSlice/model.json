@@ -11,12 +11,21 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "VideoSlice",
       "primary": {
-        "video": {
+        "source": {
           "config": {
-            "label": "video",
+            "label": "source",
+            "placeholder_false": "youtube",
+            "placeholder_true": "vimeo",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "videoid": {
+          "config": {
+            "label": "videoid",
             "placeholder": ""
           },
-          "type": "Embed"
+          "type": "Text"
         },
         "description": {
           "config": {

@@ -1,13 +1,19 @@
 <template>
   <section class="video-section">
-	  <prismic-embed :field="slice.primary.video" class="mx-auto px-8" />
+	  <LazyYoutube v-if="slice.primary.source === false" :src="vurl(slice.primary.source)" aspectRatio="16:9" maxWidth="100%" autoplay />
+	  <LazyVimeo v-else :src="vurl(slice.primary.source)" aspectRatio="16:9" maxWidth="100%" autoplay />
 	  <prismic-rich-text v-if="slice.primary.description" class="mx-auto px-8" :field="slice.primary.description" />
   </section>
 </template>
 
 <script>
+import { LazyYoutube, LazyVimeo } from "vue-lazytube";
 export default {
   name: "VideoSlice",
+  components: {
+	  LazyYoutube,
+	  LazyVimeo,
+  },
   props: {
     slice: {
       type: Object,
@@ -17,6 +23,15 @@ export default {
       },
     },
   },
+  methods: {
+	  vurl(type) {
+		  if (type === false) {
+			  return "https://player.vimeo.com/video/" + this.slice.primary.videoid;
+		  } else {
+			  return "https://www.youtube.com/watch?v=" + this.slice.primary.videoid;
+		  }
+	  }
+  }
 }
 </script>
 

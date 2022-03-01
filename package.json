@@ -24,6 +24,7 @@
     "nuxt-sm": "^0.1.1",
     "prismic-cli": "^4.2.2",
     "vue-essential-slices": "^0.3.0",
+    "vue-lazytube": "^1.0.2",
     "vue-slicezone": "^0.1.1"
   },
   "devDependencies": {
