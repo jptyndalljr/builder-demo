@@ -2,7 +2,7 @@
   <section class="my-8">
 	  <div class="p-5 flex" :class="slice.variation">
 		<figure v-if="slice.primary.caption">
-			<img :src="slice.primary.image.url" :alt="slice.primary.image.alt" />
+			<img :style="{ maxHeight: slice.primary.maxheight }" :src="slice.primary.image.url" :alt="slice.primary.image.alt" />
 			<figcaption>{{ slice.primary.caption }}</figcaption>
 		</figure>
 		<img v-else :src="slice.primary.image.url" :alt="slice.primary.image.alt" />
@@ -43,6 +43,5 @@ export default {
 img {
 	width: auto;
 	height: auto;
-	max-height: 200px;
 }
 </style>

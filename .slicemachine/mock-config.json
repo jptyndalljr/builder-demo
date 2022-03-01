@@ -65,7 +65,11 @@
         }
       },
       "default-slice": {
-        "primary": {}
+        "primary": {
+          "maxheight": {
+            "content": 200
+          }
+        }
       }
     },
     "QuoteSlice": [

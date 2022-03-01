@@ -19,6 +19,13 @@
           },
           "type": "Image"
         },
+        "maxheight": {
+          "config": {
+            "label": "The max height of the image",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
         "caption": {
           "config": {
             "label": "caption",

@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"image_slice","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"},"caption":"strategize impactful interfaces"},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"image_slice","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"},"maxheight":200,"caption":"embrace virtual systems"},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
@@ -37,7 +37,7 @@ export const _ImageLeftAligned = () => ({
   },
   data() {
     return {
-      mock: {"variation":"imageLeftAligned","name":"Image left-aligned","slice_type":"image_slice","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"},"altText":"cultivate B2C web services","caption":"enable compelling web services"},"id":"_ImageLeftAligned"}
+      mock: {"variation":"imageLeftAligned","name":"Image left-aligned","slice_type":"image_slice","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"},"altText":"empower vertical interfaces","caption":"expedite rich mindshare"},"id":"_ImageLeftAligned"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
@@ -56,7 +56,7 @@ export const _ImageRightAligned = () => ({
   },
   data() {
     return {
-      mock: {"variation":"imageRightAligned","name":"Image right-aligned","slice_type":"image_slice","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"},"altText":"incubate synergistic methodologies","caption":"implement B2B e-markets"},"id":"_ImageRightAligned"}
+      mock: {"variation":"imageRightAligned","name":"Image right-aligned","slice_type":"image_slice","items":[],"primary":{"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=900&h=500&fit=crop"},"altText":"maximize user-centric convergence","caption":"exploit proactive methodologies"},"id":"_ImageRightAligned"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'
