@@ -23,8 +23,9 @@ $ yarn run slicemachine
 | enviroment | URL                                                 |
 | ---------- | --------------------------------------------------- |
 | DEV        | https://development.d27gdy26dv3ltl.amplifyapp.com/  |
-| STAGE      |                                                     |
-| PROD       | https://22squared.com                               |
+| STAGE      | https://stage.d27gdy26dv3ltl.amplifyapp.com/        |
+| PROD       | https://production.d27gdy26dv3ltl.amplifyapp.com/   |
+| Live       | https://22squared.com                               |
 | Prismic    | https://22sq.prismic.io/                            |
 ## Development environment utilizes:
 
