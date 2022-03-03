@@ -7,12 +7,12 @@
     "Main": {
       "menu-links": {
         "config": {
-          "label": "menu-links",
+          "label": "Menu Items",
           "placeholder": "",
           "fields": {
             "link": {
               "config": {
-                "label": "link",
+                "label": "Link",
                 "placeholder": "",
                 "allowTargetBlank": false
               },
@@ -20,7 +20,7 @@
             },
             "label": {
               "config": {
-                "label": "label",
+                "label": "Label",
                 "placeholder": ""
               },
               "type": "Text"

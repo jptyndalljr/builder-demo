@@ -1,12 +1,6 @@
 {
   "_cts": {
-    "menu": {
-      "menu-links": {
-        "target": {
-          "content": false
-        }
-      }
-    },
+    "menu": {},
     "footer": {
       "column1": {
         "Text": {

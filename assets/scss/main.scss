@@ -3,23 +3,68 @@
 @tailwind utilities;
 @import "ada";
 
-* { -webkit-font-smoothing: antialiased; }
-*, *::before, *::after { box-sizing: content-box; }
-::-moz-selection { background: #fff; }
-::selection { background: #fff; }
-::-moz-selection {	background: #fff; }
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: content-box;
+}
+
+::-moz-selection {
+	background: #fff;
+}
+
+::selection {
+	background: #fff;
+}
+
+::-moz-selection {
+	background: #fff;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
 
 /*
  * Globals -set at MOBILE FIRST sizing
  */
 
- @layer base {
-    h1, .h1 { @apply text-4xl; }
-    h2, .h2 { @apply text-3xl; }
-    h3, .h3 { @apply text-2xl; }
-    h4, .h4 { @apply text-xl; }
-    h5, .h5 { @apply text-lg;  }
-    h6, .h6 { @apply text-base;  }
+@layer base {
+
+	h1,
+	.h1 {
+		@apply text-4xl;
+	}
+
+	h2,
+	.h2 {
+		@apply text-3xl;
+	}
+
+	h3,
+	.h3 {
+		@apply text-2xl;
+	}
+
+	h4,
+	.h4 {
+		@apply text-xl;
+	}
+
+	h5,
+	.h5 {
+		@apply text-lg;
+	}
+
+	h6,
+	.h6 {
+		@apply text-base;
+	}
 }
 
 body {
@@ -32,7 +77,18 @@ body {
 	line-height: 28px;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
 	font-family: $ff-serif;
 	color: $tang;
 }
@@ -42,6 +98,7 @@ a {
 	letter-spacing: 0.35px;
 	line-height: 28px;
 	text-decoration: none;
+
 	&:hover {
 		color: $sunrise;
 	}

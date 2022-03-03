@@ -1,6 +1,6 @@
 {
-  "id": "63a54742-c057-40e3-8053-5a54cb01fdb1",
-  "uid": "nihil-soluta-quo",
+  "id": "7df8383e-66ce-4400-99a7-c9988205a672",
+  "uid": "suscipit-nostrum-et",
   "type": "menu",
   "data": {
     "menu-links": [
@@ -9,15 +9,15 @@
           "link_type": "Web",
           "url": "https://slicemachine.dev"
         },
-        "label": "synthesize dynamic schemas",
+        "label": "recontextualize innovative communities",
         "target": true
       },
       {
         "link": {
           "link_type": "Web",
-          "url": "https://prismic.io"
+          "url": "http://twitter.com"
         },
-        "label": "optimize sexy bandwidth",
+        "label": "e-enable enterprise eyeballs",
         "target": false
       }
     ]
