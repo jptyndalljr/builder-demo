@@ -17,7 +17,7 @@ $ npx @slicemachine/init
 $ yarn run dev
 $ yarn run slicemachine
 ```
-
+  
 ## Enviroments
 
 | enviroment | URL                                                 |
