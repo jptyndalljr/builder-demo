@@ -179,4 +179,9 @@
 		z-index: 30;
 		background-color: rgba(0, 0, 0, 30%);
 	}
+
+	.menu-toggle {
+		width: 30px;
+		height: 30px;
+	}
 </style>
