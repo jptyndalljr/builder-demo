@@ -28,8 +28,7 @@ $ yarn run slicemachine
 | Prismic    | https://22sq.prismic.io/                            |
 ## Development environment utilizes:
 
-- Vue
-- Nuxt
+- Vue / Nuxt
 - Node
 - Sass
 - Fontawesome
@@ -37,5 +36,5 @@ $ yarn run slicemachine
 - Prismic
 
 ## Documentation
-- [Wireframes](https://www.figma.com/proto/jZTTWbhyxblcXwZJr1vund/22squared-website-ux-2021?page-i%5B%E2%80%A6%5D264=&node-id=19%3A848&viewport=241%2C48%2C0.13&scaling=min-zoom)
+- [Pre-UI Wireframes](https://www.figma.com/proto/jZTTWbhyxblcXwZJr1vund/22squared-website-ux-2021?page-i%5B%E2%80%A6%5D264=&node-id=19%3A848&viewport=241%2C48%2C0.13&scaling=min-zoom)
 - [Confluence](https://22squared.atlassian.net/wiki/spaces/TEC/pages/2107015172/Project+Overview)

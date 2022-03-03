@@ -31,7 +31,7 @@ body {
 }
 
 /*
- * Globals -set at MOBILE FIRST sizing
+ * Globals - set at MOBILE FIRST sizing
  */
 
 @layer base {
@@ -99,7 +99,7 @@ a {
 	line-height: 28px;
 	text-decoration: none;
 
-	&:hover {
+	&:hover:not(.button) {
 		color: $sunrise;
 	}
 }
@@ -117,4 +117,12 @@ p {
 	font-weight: 700;
 	text-align: center;
 	text-transform: capitalize;
+	&:hover {
+		background: $sunrise;
+	}
+}
+
+iframe {
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
 }

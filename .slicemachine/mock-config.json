@@ -196,6 +196,26 @@
           }
         }
       }
+    },
+    "SimilarSlice": {
+      "default-slice": {
+        "primary": {
+          "headline": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "studyImage": {
+            "content": "https://images.unsplash.com/photo-1452570053594-1b985d6ea890"
+          },
+          "exampleShowcase": {
+            "content": true
+          }
+        }
+      }
     }
   }
 }
