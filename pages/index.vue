@@ -1,5 +1,5 @@
 <template>
-	<section class="main" id="main">
+	<section id="main">
 		<slice-zone type="homepage" uid="homepage" queryType="single" />
 	</section>
 </template>
@@ -14,10 +14,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.main {
-	margin-top: 20px;
-}
-
 p {
 	margin-bottom: 15px;
 }
