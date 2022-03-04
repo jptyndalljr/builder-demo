@@ -15,9 +15,15 @@
 					<div v-if="d.header" class="h5">{{ d.header }}</div>
 					<prismic-rich-text class="footer-text" :field="d.text" />
 					<div class="flex social-media">
-						<font-awesome-icon class="mr-8 cursor-pointer hover:text-22-sunrise" :icon="['fab', 'instagram-square']" size="2x" />
-						<font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="mr-8 cursor-pointer hover:text-22-sunrise" />
-						<font-awesome-icon :icon="['fab', 'facebook-square']" size="2x" class="mr-8 cursor-pointer hover:text-22-sunrise" />
+						<a href="https://instagram.com/22squared" target="_blank">
+							<font-awesome-icon class="mr-8 cursor-pointer hover:text-22-sunrise" :icon="['fab', 'instagram-square']" size="2x" />
+						</a>
+						<a href="https://linkedin.com/22squared" target="_blank">
+							<font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="mr-8 cursor-pointer hover:text-22-sunrise" />
+						</a>
+						<a href="https://facebook.com/22squared" target="_blank">
+							<font-awesome-icon :icon="['fab', 'facebook-square']" size="2x" class="mr-8 cursor-pointer hover:text-22-sunrise" />
+						</a>
 					</div>
 				</div>
 			</div>

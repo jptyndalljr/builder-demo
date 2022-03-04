@@ -1,5 +1,5 @@
 <template>
-  <section class="content-section quote container">
+  <section class="content-section quote">
 	  <blockquote class="block-quotation">{{ $prismic.asText(slice.primary.quoteText) }}</blockquote>
 	  <div v-if="slice.variation === 'quoteReference'">
 		  <cite>

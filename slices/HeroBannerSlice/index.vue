@@ -1,6 +1,6 @@
 <template>
   <section class="hero-banner mb-4" :style="{ backgroundImage: 'url(' + slice.primary.background.url + ')' }">
-	  <div class="banner-content container">
+	  <div class="banner-content">
 		<h1 class="banner-title">{{ $prismic.asText(slice.primary.title) }}</h1>
 		<prismic-rich-text :field="slice.primary.description" class="mb-8 banner-description" />
 		<prismic-link :field="slice.primary.link" class="banner-button">{{ slice.primary.linkLabel }}</prismic-link>
@@ -47,6 +47,7 @@ export default {
 	border: 3px solid $button-outline;
 	&:hover {
 		background-color: $button-hover;
+		color: #fff;
 	}
 }
 
