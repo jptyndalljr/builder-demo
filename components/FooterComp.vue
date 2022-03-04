@@ -4,24 +4,24 @@
 			<img :src="doc.logo.url" :alt="doc.logo.alt" class="p-5" />
 		</div>
 		<div class="tri-grid bg-gray-500">
-			<div class="col1 py-8 pl-8">
+			<div class="col1 text-center md:text-left pt-8 md:pl-8">
 				<div v-for="(d, index) in doc.column1" :key="index">
 					<div v-if="d.header" class="h5">{{ d.header }}</div>
 					<prismic-rich-text class="footer-text" :field="d.Text" />
 				</div>
 			</div>
-			<div class="col2 py-8 pl-8">
+			<div class="col2 text-center md:text-left pt-8 md:pl-8">
 				<div v-for="(d, index) in doc.column2" :key="index">
 					<div v-if="d.header" class="h5">{{ d.header }}</div>
 					<prismic-rich-text class="footer-text" :field="d.text" />
-					<div class="social-media">
+					<div class="flex social-media">
 						<font-awesome-icon class="mr-8 cursor-pointer hover:text-22-sunrise" :icon="['fab', 'instagram-square']" size="2x" />
 						<font-awesome-icon :icon="['fab', 'linkedin']" size="2x" class="mr-8 cursor-pointer hover:text-22-sunrise" />
 						<font-awesome-icon :icon="['fab', 'facebook-square']" size="2x" class="mr-8 cursor-pointer hover:text-22-sunrise" />
 					</div>
 				</div>
 			</div>
-			<div class="col3 py-8 pl-8">
+			<div class="col3 text-center md:text-left mb-8 pt-8 md:pl-8">
 				<nuxt-link to="/">Home</nuxt-link>
 				<ul>
 					<li v-for="(item, index) in this.menu" :key="index">
@@ -71,15 +71,20 @@ export default {
 }
 
 .social-media {
-	display: flex;
-	justify-content: flex-start;
-	max-width: 50%;
+	justify-content: center;
 }
 
 .footer-text {
 	p {
 		margin-bottom: 25px;
 		line-height: 15px;
+	}
+}
+
+@media (min-width: 768px) {
+	.social-media {
+		justify-content: flex-start;
+		max-width: 50%;
 	}
 }
 </style>

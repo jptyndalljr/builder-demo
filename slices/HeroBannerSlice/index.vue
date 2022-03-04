@@ -1,5 +1,5 @@
 <template>
-  <section class="hero-banner" :style="{ backgroundImage: 'url(' + slice.primary.background.url + ')' }">
+  <section class="hero-banner mb-4" :style="{ backgroundImage: 'url(' + slice.primary.background.url + ')' }">
 	  <div class="banner-content container">
 		<h1 class="banner-title">{{ $prismic.asText(slice.primary.title) }}</h1>
 		<prismic-rich-text :field="slice.primary.description" class="mb-8 banner-description" />

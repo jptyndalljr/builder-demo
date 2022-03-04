@@ -3,7 +3,7 @@
 - Client: 22Squared
 
 ## Initial Development Environment Setup
-At least LTS version of Node. (currently 16.13.x)
+The latest LTS version of Node (currently 16.14.0)
 
 ```bash
 # install dependencies
@@ -17,7 +17,7 @@ $ npx @slicemachine/init
 $ yarn run dev
 $ yarn run slicemachine
 ```
-  
+
 ## Enviroments
 
 | enviroment | URL                                                 |
