@@ -1122,6 +1122,133 @@
           }
         }
       },
+      "tags": {
+        "library": "slices",
+        "id": "tags",
+        "name": "Tags",
+        "description": "Tags",
+        "model": {
+          "id": "tags",
+          "type": "SharedSlice",
+          "name": "Tags",
+          "description": "Tags",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Tags",
+              "primary": {},
+              "items": {
+                "tagType": {
+                  "config": {
+                    "label": "Tag Type",
+                    "placeholder": "",
+                    "options": [
+                      "Client",
+                      "Media",
+                      "Capability"
+                    ]
+                  },
+                  "type": "Select"
+                },
+                "tagName": {
+                  "config": {
+                    "label": "Tag Name",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "caseStudy": {
+                  "config": {
+                    "label": "Case Study",
+                    "placeholder_false": "No",
+                    "placeholder_true": "Yes",
+                    "default_value": false
+                  },
+                  "type": "Boolean"
+                },
+                "caseStudyLink": {
+                  "config": {
+                    "label": "Case Study Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "tags",
+            "items": [
+              {
+                "tagType": "Client",
+                "tagName": "maximize front-end methodologies",
+                "caseStudy": false,
+                "caseStudyLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "tagType": "Client",
+                "tagName": "transition end-to-end action-items",
+                "caseStudy": true,
+                "caseStudyLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              },
+              {
+                "tagType": "Client",
+                "tagName": "harness plug-and-play convergence",
+                "caseStudy": false,
+                "caseStudyLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "tagType": "Client",
+                "tagName": "reinvent world-class architectures",
+                "caseStudy": false,
+                "caseStudyLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "tagType": "Media",
+                "tagName": "engage user-centric eyeballs",
+                "caseStudy": false,
+                "caseStudyLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/richard.tuttle/Desktop/repos/22squared-website-static/.slicemachine/assets/slices/Tags/default/preview.png",
+            "width": 800,
+            "height": 144
+          }
+        }
+      },
       "text_image_right": {
         "library": "slices",
         "id": "text_image_right",

@@ -216,6 +216,16 @@
           }
         }
       }
+    },
+    "Tags": {
+      "default": {
+        "primary": {},
+        "items": {
+          "tagName": {
+            "content": "testing"
+          }
+        }
+      }
     }
   }
 }

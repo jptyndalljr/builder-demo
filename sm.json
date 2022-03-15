@@ -3,6 +3,6 @@
   "libraries": [
     "@/slices"
   ],
-  "_latest": "0.2.1",
+  "_latest": "0.3.1",
   "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }

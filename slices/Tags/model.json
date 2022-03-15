@@ -1,0 +1,54 @@
+{
+  "id": "tags",
+  "type": "SharedSlice",
+  "name": "Tags",
+  "description": "Tags",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Tags",
+      "primary": {},
+      "items": {
+        "tagType": {
+          "config": {
+            "label": "Tag Type",
+            "placeholder": "",
+            "options": [
+              "Client",
+              "Media",
+              "Capability"
+            ]
+          },
+          "type": "Select"
+        },
+        "tagName": {
+          "config": {
+            "label": "Tag Name",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "caseStudy": {
+          "config": {
+            "label": "Case Study",
+            "placeholder_false": "No",
+            "placeholder_true": "Yes",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "caseStudyLink": {
+          "config": {
+            "label": "Case Study Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}
