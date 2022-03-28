@@ -2,7 +2,16 @@
   "name": "22squared-website-static",
   "version": "1.0.0",
   "description": "The 2022 brand marketing website rebuild",
-  "author": "22squared",
+  "contributors": [
+	{
+	  "name": "Richard Tuttle",
+	  "email": "richard.tuttle@22squared.com"
+  	},
+	{
+	  "name": "JP Tyndall",
+	  "email": "john.tyndall@ssquared.com"
+	}
+  ],
   "main": "slices/index.js",
   "scripts": {
     "dev": "nuxt",
