@@ -11,6 +11,7 @@ import SimilarSlice from './SimilarSlice';
 import Tags from './Tags';
 import TextImageRight from './TextImageRight';
 import TextSlice from './TextSlice';
+import TileSlice from './TileSlice';
 import VideoSlice from './VideoSlice';
 
 export {
@@ -25,6 +26,7 @@ export {
 	Tags,
 	TextImageRight,
 	TextSlice,
+	TileSlice,
 	VideoSlice,
 };
 
@@ -40,5 +42,6 @@ export const components = {
 	tags: Tags,
 	text_image_right: TextImageRight,
 	text_slice: TextSlice,
+	tile_slice: TileSlice,
 	video_slice: VideoSlice,
 };

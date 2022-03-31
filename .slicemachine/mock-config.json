@@ -226,6 +226,19 @@
           }
         }
       }
+    },
+    "TileSlice": {
+      "default": {
+        "primary": {},
+        "items": {
+          "TileContent": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 3
+            }
+          }
+        }
+      }
     }
   }
 }
