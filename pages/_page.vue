@@ -7,14 +7,11 @@
 </template>
 
 <script>
-	// import { builder, RenderContent } from '@builder.io/vue';
 	import { getContent, isEditing } from '@builder.io/sdk-vue';
 	import '../scripts/register-builder-components';
 
 	// TODO: enter your public API key
 	const BUILDER_PUBLIC_API_KEY = '593f714c13a94bc4b37f7ab4a3062a50'; // ggignore
-
-	// builder.init('593f714c13a94bc4b37f7ab4a3062a50');
 
 	export default {
 		data: () => ({
