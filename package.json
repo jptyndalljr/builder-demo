@@ -1,6 +1,6 @@
 {
 	"name": "builder-demo",
-	"version": "1.0.0",
+	"version": "3.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "nuxt",
@@ -12,7 +12,7 @@
 		"@builder.io/sdk-vue": "^0.0.1-50",
 		"@builder.io/vue": "^0.1.12",
 		"@fortawesome/fontawesome-svg-core": "^6.1.1",
-		"core-js": "^3.19.3",
+		"core-js": "^3.21.1",
 		"nuxt": "^2.15.8",
 		"vue": "^2.6.14",
 		"vue-server-renderer": "^2.6.14",
@@ -28,9 +28,9 @@
 		"@nuxtjs/style-resources": "^1.2.1",
 		"@nuxtjs/tailwindcss": "^4.2.1",
 		"autoprefixer": "^10.4.4",
-		"postcss": "^8.4.4",
-		"prettier": "^2.5.1",
+		"postcss": "^8.4.12",
+		"prettier": "^2.6.2",
 		"sass": "^1.50.0",
-		"sass-loader": "^10.1.1"
+		"sass-loader": "^10.2.1"
 	}
 }
