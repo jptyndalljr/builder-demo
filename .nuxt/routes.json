@@ -3,7 +3,6 @@
     "name": "page",
     "path": "/:page?",
     "component": "/Users/richard.tuttle/Desktop/repos/builder-demo/pages/_page.vue",
-    "chunkName": "pages/_page",
-    "_name": "_6b9bb9c0"
+    "chunkName": "pages/_page"
   }
 ]
