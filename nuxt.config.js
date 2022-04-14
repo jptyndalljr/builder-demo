@@ -43,6 +43,7 @@ export default {
 		'@nuxtjs/fontawesome',
 		'@nuxtjs/google-fonts',
 		'@builder.io/sdk-vue/nuxt',
+		'@nuxt/postcss8',
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
