@@ -45,7 +45,7 @@
     name: 'Footer',
     props: {
 			logo: {
-				type: Object,
+				type: String,
 			},
       columns: {
         type: Object,

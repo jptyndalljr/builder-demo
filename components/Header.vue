@@ -85,7 +85,7 @@
 		name: 'Header',
     props: {
 			logo: {
-				type: Object,
+				type: String,
 			},
 		},
 		data() {
