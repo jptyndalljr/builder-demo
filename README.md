@@ -1,5 +1,5 @@
-# builder-demo
-Builder CMS demo POC.
+# Project: 22squared 2022 Redevelopment
+* Lead Dev: Richard Tuttle
 
 ## Build Setup
 
@@ -17,3 +17,14 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+
+## Environments
+Development - [https://development.d27gdy26dv3ltl.amplifyapp.com/](https://development.d27gdy26dv3ltl.amplifyapp.com/)
+Production - [https://www.22squared.com](https://www.22squared.com)
+
+## Technologies
+* Vue / Nuxt
+* Tailwind
+* Builder
+
+## Documentations
