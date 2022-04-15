@@ -1,9 +1,34 @@
+import axios from 'axios';
+
 export default {
 	// Target: https://go.nuxtjs.dev/config-target
 	target: 'static',
 
-	env: {
-		baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+	// env: {
+	// 	baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+	// },
+
+	// migrating to new runtime config: https://nuxtjs.org/tutorials/moving-from-nuxtjs-dotenv-to-runtime-config/
+	publicRuntimeConfig: {
+		baseURL: process.env.BASE_URL || 'http://localhost:3000',
+		pagesURL: 'https://cdn.builder.io/api/v2/content/page?apiKey=' + process.env.API_SECRET,
+	},
+	privateRuntimeConfig: {
+		apiSecret: process.env.API_SECRET,
+	},
+
+	generate: {
+		routes: async () => {
+			let { data } = await axios.get(process.env.PAGES_URL, {
+				headers: { 'Content-Type': 'application/json' },
+			});
+			return data.results.map((page) => {
+				return {
+					route: page.query[0].value,
+					payload: page,
+				};
+			});
+		},
 	},
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
@@ -42,12 +67,13 @@ export default {
 		'@nuxtjs/tailwindcss',
 		'@nuxtjs/fontawesome',
 		'@nuxtjs/google-fonts',
-		'@builder.io/sdk-vue/nuxt',
+		// '@builder.io/sdk-vue/nuxt',
 		'@nuxt/postcss8',
+		'@nuxt/components',
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ['@nuxtjs/style-resources'],
+	modules: ['@nuxtjs/style-resources', '@nuxtjs/axios', '@builder.io/sdk-vue/nuxt'],
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
