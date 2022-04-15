@@ -4,30 +4,30 @@
 @import "ada";
 
 * {
-	-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 ::-moz-selection {
-	background: #fff;
+  background: #fff;
 }
 
 ::selection {
-	background: #fff;
+  background: #fff;
 }
 
 ::-moz-selection {
-	background: #fff;
+  background: #fff;
 }
 
 html,
 body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /*
@@ -36,45 +36,45 @@ body {
 
 @layer base {
 
-	h1,
-	.h1 {
-		@apply text-4xl;
-	}
+  h1,
+  .h1 {
+    @apply text-4xl;
+  }
 
-	h2,
-	.h2 {
-		@apply text-3xl;
-	}
+  h2,
+  .h2 {
+    @apply text-3xl;
+  }
 
-	h3,
-	.h3 {
-		@apply text-2xl;
-	}
+  h3,
+  .h3 {
+    @apply text-2xl;
+  }
 
-	h4,
-	.h4 {
-		@apply text-xl;
-	}
+  h4,
+  .h4 {
+    @apply text-xl;
+  }
 
-	h5,
-	.h5 {
-		@apply text-lg;
-	}
+  h5,
+  .h5 {
+    @apply text-lg;
+  }
 
-	h6,
-	.h6 {
-		@apply text-base;
-	}
+  h6,
+  .h6 {
+    @apply text-base;
+  }
 }
 
 body {
-	font-family: $ff-sans;
-	background: $page-bkg;
-	color: $base-font-color;
-	font-size: $base-font-size;
-	font-weight: $base-font-weight;
-	letter-spacing: 0.4px;
-	line-height: 28px;
+  font-family: $ff-sans;
+  background: $page-bkg;
+  color: $base-font-color;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  letter-spacing: 0.4px;
+  line-height: 28px;
 }
 
 h1,
@@ -89,40 +89,41 @@ h6,
 .h4,
 .h5,
 .h6 {
-	font-family: $ff-serif;
-	color: $tang;
+  font-family: $ff-serif;
+  color: $tang;
 }
 
 a {
-	font-weight: $base-font-weight;
-	letter-spacing: 0.35px;
-	line-height: 28px;
-	text-decoration: none;
+  font-weight: $base-font-weight;
+  letter-spacing: 0.35px;
+  line-height: 28px;
+  text-decoration: none;
 
-	&:hover:not(.button) {
-		color: $sunrise;
-	}
+  &:hover:not(.button) {
+    color: $sunrise;
+  }
 }
 
 p {
-	a {
-		text-decoration: underline;
-	}
+  a {
+    text-decoration: underline;
+  }
 }
 
 .button {
-	background: $button-bg;
-	border: 2px solid $button-outline;
-	font-family: $ff-sans;
-	font-weight: 700;
-	text-align: center;
-	text-transform: capitalize;
-	&:hover {
-		background: $sunrise;
-	}
+  background: $button-bg;
+  border: 2px solid $button-outline;
+  font-family: $ff-sans;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+
+  &:hover {
+    background: $sunrise;
+  }
 }
 
 iframe {
-	width: -webkit-fill-available;
-	height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
 }
